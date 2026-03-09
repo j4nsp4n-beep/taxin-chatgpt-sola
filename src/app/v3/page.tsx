@@ -62,12 +62,12 @@ function GridLines() {
 function FlowDiagram() {
   const steps = ["Vir", "Dejstva", "Subsumpcija", "Sklep"];
   return (
-    <div className="flex items-center gap-0">
+    <div className="flex flex-wrap items-center gap-y-2">
       {steps.map((step, i) => (
         <div key={step} className="flex items-center">
           <div className="flex flex-col items-center gap-1.5">
             <div
-              className={`rounded-lg border px-4 py-2.5 text-sm font-semibold ${
+              className={`rounded-lg border px-2.5 py-2 text-xs font-semibold sm:px-4 sm:py-2.5 sm:text-sm ${
                 i === steps.length - 1
                   ? "border-green-300 bg-green-50 text-green-700"
                   : "border-slate-200 bg-white text-slate-700"
@@ -78,7 +78,7 @@ function FlowDiagram() {
             <div className="h-1 w-1 rounded-full bg-slate-300" />
           </div>
           {i < steps.length - 1 && (
-            <div className="mx-2 h-px w-6 bg-slate-300" />
+            <div className="mx-1.5 h-px w-4 bg-slate-300 sm:mx-2 sm:w-6" />
           )}
         </div>
       ))}
