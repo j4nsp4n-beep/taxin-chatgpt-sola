@@ -274,8 +274,8 @@ export default function PageV3() {
             TAXIN AI
           </Link>
           <nav className="hidden gap-8 md:flex">
-            {["Zakaj", "Program", "Režimi", "FAQ"].map((l) => (
-              <Link key={l} href={`#${l.toLowerCase()}`} className="text-sm text-slate-500 hover:text-slate-900 transition">
+            {[["Zakaj", "#zakaj"], ["Program", "#program"], ["Moduli", "#moduli"], ["Predavatelj", "#predavatelj"], ["FAQ", "#faq"]].map(([l, href]) => (
+              <Link key={l} href={href} className="text-sm text-slate-500 hover:text-slate-900 transition">
                 {l}
               </Link>
             ))}
@@ -573,7 +573,7 @@ export default function PageV3() {
       </section>
 
       {/* ══ 3 REŽIMI ══ */}
-      <section id="režimi" className="relative overflow-hidden border-t border-slate-100 bg-white px-6 py-28">
+      <section id="moduli" className="relative overflow-hidden border-t border-slate-100 bg-white px-6 py-28">
         <DotGrid className="opacity-30" />
         <div className="relative mx-auto max-w-7xl md:flex md:items-center md:gap-16">
           <FadeIn className="flex-1">
@@ -781,7 +781,7 @@ export default function PageV3() {
       </section>
 
       {/* ══ PREDAVATELJ ══ */}
-      <section className="border-t border-slate-100 bg-white px-6 py-28">
+      <section id="predavatelj" className="border-t border-slate-100 bg-white px-6 py-28">
         <div className="mx-auto max-w-7xl">
           <FadeIn>
             <span className="mb-3 inline-block text-xs uppercase tracking-[0.18em] text-green-600">
