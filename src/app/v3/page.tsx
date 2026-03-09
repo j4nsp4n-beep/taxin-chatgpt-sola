@@ -280,9 +280,9 @@ export default function PageV3() {
               </Link>
             ))}
           </nav>
-          <button className="rounded-full bg-slate-900 px-5 py-2 text-sm font-semibold text-white hover:bg-slate-700 transition">
+          <a href="https://podio.com/webforms/6967373/536634" target="_blank" rel="noopener noreferrer" className="rounded-full bg-slate-900 px-5 py-2 text-sm font-semibold text-white hover:bg-slate-700 transition">
             Prijavi se
-          </button>
+          </a>
         </div>
       </header>
 
@@ -322,12 +322,12 @@ export default function PageV3() {
             </FadeIn>
             <FadeIn delay={0.22}>
               <div className="mt-10 flex flex-wrap gap-4">
-                <button className="rounded-full bg-slate-900 px-7 py-3 text-sm font-semibold text-white hover:bg-slate-700 transition">
+                <a href="https://podio.com/webforms/6967373/536634" target="_blank" rel="noopener noreferrer" className="rounded-full bg-slate-900 px-7 py-3 text-sm font-semibold text-white hover:bg-slate-700 transition">
                   Prijavi se na program
-                </button>
-                <button className="rounded-full border border-slate-300 px-7 py-3 text-sm font-semibold text-slate-600 hover:border-slate-400 hover:text-slate-900 transition">
+                </a>
+                <a href="/program-stopnja-1.pdf" download className="rounded-full border border-slate-300 px-7 py-3 text-sm font-semibold text-slate-600 hover:border-slate-400 hover:text-slate-900 transition">
                   Prenesi program Stopnja I ↓
-                </button>
+                </a>
               </div>
             </FadeIn>
           </div>
@@ -904,7 +904,9 @@ export default function PageV3() {
             </p>
             <div className="mt-10 flex flex-wrap justify-center gap-4">
               <a
-                href="mailto:info@taxin.si?subject=Prijava%20TAXIN%20AI%20ChatGPT%20Šola"
+                href="https://podio.com/webforms/6967373/536634"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="rounded-full bg-green-600 px-8 py-4 text-sm font-semibold text-white hover:bg-green-700 transition"
               >
                 Prijavi se zdaj
