@@ -400,12 +400,12 @@ export default function PageV3() {
               .
             </p>
             <div className="mt-10 flex flex-wrap justify-center gap-4">
-              <button className="rounded-full bg-green-600 px-7 py-3 text-sm font-semibold text-white hover:bg-green-700 transition">
+              <a href="https://podio.com/webforms/6967373/536634" target="_blank" rel="noopener noreferrer" className="rounded-full bg-green-600 px-7 py-3 text-sm font-semibold text-white hover:bg-green-700 transition">
                 Rezerviraj mesto
-              </button>
-              <button className="rounded-full border border-white/20 px-7 py-3 text-sm font-semibold text-white/60 hover:border-white/40 hover:text-white transition">
+              </a>
+              <a href="mailto:info@taxin.si?subject=Povpraševanje%20TAXIN%20AI%20ChatGPT%20Šola" className="rounded-full border border-white/20 px-7 py-3 text-sm font-semibold text-white/60 hover:border-white/40 hover:text-white transition">
                 Želim več informacij
-              </button>
+              </a>
             </div>
           </FadeIn>
         </div>
