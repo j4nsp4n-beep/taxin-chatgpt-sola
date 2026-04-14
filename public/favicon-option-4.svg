@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="32" height="32">
+  <rect width="100" height="100" rx="14" fill="#000000"/>
+
+  <!-- Triquetra: three small CW arcs (outward lobes) -->
+  <path d="M 50 14 A 42 42 0 0 1 80 74 A 42 42 0 0 1 20 74 A 42 42 0 0 1 50 14 Z"
+        fill="none" stroke="white" stroke-width="6"/>
+
+  <!-- Orange circle through middle -->
+  <circle cx="50" cy="54" r="22" fill="none" stroke="#ff5722" stroke-width="6"/>
+</svg>

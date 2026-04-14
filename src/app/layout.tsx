@@ -2,9 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "AI Portfolio Landing",
+  title: "AI Sistemi — Postavitev operativnega sistema za AI v podjetju",
   description:
-    "Premium tech-focused landing and portfolio showcase built with Next.js, Tailwind, and Framer Motion.",
+    "AI v podjetju ne odpove zaradi modela. Odpove zaradi procesa. Pregled pripravljenosti procesa za AI za storitvena podjetja.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
@@ -13,8 +16,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body className="bg-black text-white antialiased">
+    <html lang="sl" className="scroll-smooth">
+      <body className="bg-white text-slate-900 antialiased">
         {children}
       </body>
     </html>

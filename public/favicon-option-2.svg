@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" rx="6" fill="#0f172a"/>
+  <!-- A shape -->
+  <path d="M16 6 L25 26 L22 26 L20 21 L12 21 L10 26 L7 26 Z" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linejoin="round"/>
+  <line x1="13.2" y1="18" x2="18.8" y2="18" stroke="#ffffff" stroke-width="1.8"/>
+  <!-- orange dot at apex -->
+  <circle cx="16" cy="6" r="2.5" fill="#ff5722"/>
+</svg>
