@@ -203,10 +203,9 @@ function Navbar() {
           : ""
       }`}
     >
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
-        <Link href="/" className="flex items-center gap-2 text-sm font-bold uppercase tracking-[0.2em] text-slate-900">
-          <span className="h-2.5 w-2.5 rounded-full bg-[#ff5722]" />
-          AI Sistemi
+      <div className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-6">
+        <Link href="/" className="flex items-center" aria-label="AI Sistemi">
+          <img src="/brand/aisistemi-wordmark.png" alt="AI Sistemi" className="h-12 w-auto" />
         </Link>
         <nav className="hidden gap-8 md:flex">
           {[["Kako poteka", "#kako-poteka"], ["Razvojna pot", "#razvojna-pot"], ["Za koga", "#za-koga"], ["FAQ", "#faq"]].map(([l, href]) => (
@@ -305,7 +304,30 @@ export default function PregledPripravljenosti() {
               </div>
             </div>
           </FadeIn>
+
         </div>
+
+        {/* ── Model-agnostic logo strip ── */}
+        <FadeIn delay={0.35} className="mx-auto max-w-7xl px-6 pt-8 pb-6">
+          <p className="mb-5 text-center text-[11px] uppercase tracking-[0.2em] text-slate-400">
+            Gradimo na vseh vodilnih platformah
+          </p>
+          <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-4">
+            {[
+              { src: "/logos/openai.svg", alt: "OpenAI", h: "h-5" },
+              { src: "/logos/anthropic.svg", alt: "Anthropic", h: "h-5" },
+              { src: "/logos/googlegemini.svg", alt: "Google Gemini", h: "h-5" },
+              { src: "/logos/meta.svg", alt: "Meta", h: "h-5" },
+              { src: "/logos/mistral.svg", alt: "Mistral AI", h: "h-5" },
+              { src: "/logos/microsoftazure.svg", alt: "Microsoft Azure", h: "h-5" },
+            ].map((logo) => (
+              <div key={logo.alt} className="flex items-center gap-2 opacity-40 transition hover:opacity-70">
+                <img src={logo.src} alt={logo.alt} className={`${logo.h} w-auto`} />
+                <span className="text-xs font-medium text-slate-400">{logo.alt}</span>
+              </div>
+            ))}
+          </div>
+        </FadeIn>
 
         <div className="relative border-t border-slate-100 py-5">
           <div className="mx-auto max-w-7xl px-6">

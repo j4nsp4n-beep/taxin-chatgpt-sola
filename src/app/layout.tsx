@@ -2,12 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "AI Sistemi — Postavitev operativnega sistema za AI v podjetju",
+  title: "AI Sistemi | AI sistem, ki pozna vaše podjetje",
   description:
-    "AI v podjetju ne odpove zaradi modela. Odpove zaradi procesa. Pregled pripravljenosti procesa za AI za storitvena podjetja.",
-  icons: {
-    icon: "/favicon.svg",
-  },
+    "Najprej podjetje integriramo v AI, šele potem AI v podjetje. Procese, podatke, kontekst in orodja povežemo v AI sistem, ki natančno pozna vaše podjetje.",
 };
 
 export default function RootLayout({

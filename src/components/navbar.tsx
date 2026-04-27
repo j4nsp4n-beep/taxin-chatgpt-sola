@@ -29,13 +29,13 @@ export function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <div className="mx-auto flex h-16 w-full max-w-7xl items-center justify-between px-6">
-        <Link
-          href="/"
-          className="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.2em]"
-        >
-          <img src="/logo-symbol.svg" alt="" className="h-6 w-6" />
-          AI Sistemi
+      <div className="mx-auto flex h-[72px] w-full max-w-7xl items-center justify-between px-6">
+        <Link href="/" className="inline-flex items-center" aria-label="AI Sistemi">
+          <img
+            src="/brand/aisistemi-wordmark.png"
+            alt="AI Sistemi"
+            className="h-12 w-auto"
+          />
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
