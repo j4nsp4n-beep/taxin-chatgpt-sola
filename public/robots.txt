@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /v7
+
+Sitemap: https://aisistemi.si/sitemap.xml
