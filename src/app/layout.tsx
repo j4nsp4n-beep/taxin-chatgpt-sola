@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     template: "%s | AI Sistemi",
   },
   description:
-    "Za podjetja gradimo AI delovna okolja. Procese, podatke, kontekst in orodja povežemo v AI sistem, ki pozna vaše podjetje in dejansko izvaja, ne le svetuje.",
+    "Za podjetja gradimo AI delovna okolja. Že obstoječe procese, podatke, kontekst in orodja povežemo v AI sistem, ki natančno pozna vaše podjetje. Vaš sistem nadgradimo, ne prepišemo.",
   applicationName: "AI Sistemi",
   alternates: { canonical: "/" },
   openGraph: {
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "AI Sistemi",
     title: "AI Sistemi | AI sistem, ki pozna vaše podjetje",
     description:
-      "Za podjetja gradimo AI delovna okolja. Procese, podatke, kontekst in orodja povežemo v AI sistem, ki pozna vaše podjetje in dejansko izvaja, ne le svetuje.",
+      "Za podjetja gradimo AI delovna okolja. Že obstoječe procese, podatke, kontekst in orodja povežemo v AI sistem, ki natančno pozna vaše podjetje. Vaš sistem nadgradimo, ne prepišemo.",
     locale: "sl_SI",
     url: SITE_URL,
     images: [
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "AI Sistemi | AI sistem, ki pozna vaše podjetje",
     description:
-      "Procese, podatke, kontekst in orodja povežemo v AI sistem, ki pozna vaše podjetje in dejansko izvaja, ne le svetuje.",
+      "Že obstoječe procese, podatke, kontekst in orodja povežemo v AI sistem, ki natančno pozna vaše podjetje. Vaš sistem nadgradimo, ne prepišemo.",
     images: ["/brand/aisistemi-wordmark.png"],
   },
   robots: {
@@ -102,7 +102,7 @@ const organizationJsonLd = {
   },
   image: `${SITE_URL}/brand/aisistemi-wordmark.png`,
   description:
-    "Za podjetja gradimo AI delovna okolja: procese, podatke, kontekst in orodja povežemo v AI sistem, ki pozna vaše podjetje in dejansko izvaja, ne le svetuje.",
+    "Za podjetja gradimo AI delovna okolja: že obstoječe procese, podatke, kontekst in orodja povežemo v AI sistem, ki natančno pozna vaše podjetje. Vaš sistem nadgradimo, ne prepišemo.",
   telephone: "+386 40 686 940",
   email: "jan@aisistemi.si",
   address: {
