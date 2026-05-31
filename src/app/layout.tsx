@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     template: "%s | AI Sistemi",
   },
   description:
-    "Najprej podjetje integriramo v AI, šele potem AI v podjetje. Procese, podatke, kontekst in orodja povežemo v AI delovno okolje, ki pozna vaše podjetje.",
+    "Za podjetja gradimo AI delovna okolja. Procese, podatke, kontekst in orodja povežemo v AI sistem, ki pozna vaše podjetje in dejansko izvaja, ne le svetuje.",
   applicationName: "AI Sistemi",
   alternates: { canonical: "/" },
   openGraph: {
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "AI Sistemi",
     title: "AI Sistemi | AI sistem, ki pozna vaše podjetje",
     description:
-      "Najprej podjetje integriramo v AI, šele potem AI v podjetje. Procese, podatke, kontekst in orodja povežemo v AI delovno okolje, ki pozna vaše podjetje.",
+      "Za podjetja gradimo AI delovna okolja. Procese, podatke, kontekst in orodja povežemo v AI sistem, ki pozna vaše podjetje in dejansko izvaja, ne le svetuje.",
     locale: "sl_SI",
     url: SITE_URL,
     images: [
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "AI Sistemi | AI sistem, ki pozna vaše podjetje",
     description:
-      "Procese, podatke, kontekst in orodja povežemo v AI delovno okolje, ki pozna vaše podjetje.",
+      "Procese, podatke, kontekst in orodja povežemo v AI sistem, ki pozna vaše podjetje in dejansko izvaja, ne le svetuje.",
     images: ["/brand/aisistemi-wordmark.png"],
   },
   robots: {
@@ -102,7 +102,7 @@ const organizationJsonLd = {
   },
   image: `${SITE_URL}/brand/aisistemi-wordmark.png`,
   description:
-    "AI delovno okolje za podjetja: integracija procesov, podatkov, konteksta in orodij v eno operativno plast. Najprej podjetje integriramo v AI, šele potem AI v podjetje.",
+    "Za podjetja gradimo AI delovna okolja: procese, podatke, kontekst in orodja povežemo v AI sistem, ki pozna vaše podjetje in dejansko izvaja, ne le svetuje.",
   telephone: "+386 40 686 940",
   email: "jan@aisistemi.si",
   address: {
