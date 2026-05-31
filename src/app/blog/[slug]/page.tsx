@@ -160,7 +160,7 @@ export default async function BlogPostPage({
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
 
-            {post.faq.length > 0 ? (
+            {post.faq.length > 0 && !post.bodyHasFaqSection ? (
               <section className="mt-20 border-t border-slate-200 pt-12" aria-labelledby="faq-heading">
                 <h2 id="faq-heading" className="text-2xl font-extrabold text-slate-900 md:text-3xl">
                   Pogosta vprašanja

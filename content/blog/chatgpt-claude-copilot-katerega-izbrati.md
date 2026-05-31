@@ -14,25 +14,12 @@ cta_target: https://aisistemi.si/pregled-pripravljenosti
 tip: SEO+GEO
 author: Jan Špan
 publisher: AI Sistemi
-date: 2026-05-30
-status: draft
+date: 2026-05-31
+status: published
 title_tag: "Kateri AI za podjetje: ChatGPT, Claude ali Copilot"
 meta_description: "Kateri AI za podjetje izbrati: ChatGPT, Claude ali Copilot? Primerjava licenc, varnosti, cen in konteksta pred nakupom."
-faq:
-  - q: "Kateri AI za podjetje naj izberemo: ChatGPT, Claude ali Copilot?"
-    a: "Odgovor je odvisen od tega, kje vaše delo dejansko poteka. Če je Microsoft 365 vaše glavno delovno okolje in so dokumenti urejeni, je Copilot naravna izbira, ker sedi v Outlooku, Teamsih, Wordu in Excelu. Če ekipa veliko dela z dolgimi pogodbami, razpisi in analizami, je Claude pogosto najboljši. Če iščete najbolj vsestranski splošni AI prostor za ekipo, je ChatGPT Business najlažji začetek. Pred nakupom izberite en proces, ki ga boste dejansko uredili, in šele nato licenco."
-  - q: "Koliko stane poslovna licenca za ChatGPT, Claude in Microsoft 365 Copilot?"
-    a: "Cene, preverjene 30. 5. 2026 na uradnih straneh, so naslednje. ChatGPT Business je na lokalizirani strani prikazan po 15 GBP na uporabnika mesečno pri letnem obračunu, z opombo 25 USD pri mesečnem. Claude Team za ameriške kupce navaja 20 USD pri letnem in 25 USD pri mesečnem obračunu, brez davkov. Microsoft 365 Copilot Business je v časovno omejeni ponudbi 18 USD pri letnem obračunu, sicer 21 USD, in 25,20 USD mesečno. Cene se lahko razlikujejo po regiji, valuti, davkih in akcijah."
-  - q: "Zakaj sama licenca AI orodja ne reši poslovne uporabe?"
-    a: "Ker licenca odpre vrata, delo pa potrebuje arhitekturo. Nobeno od teh orodij samo od sebe ne prinese poslovnega konteksta: ne pozna vaših strank, izjem, popustov, zadnjih ponudb in pravil odločanja. Te informacije živijo v CRM-ju, e-pošti, Drive-u, SharePointu, Excelu in glavah ljudi. Če jih AI ne vidi, odgovarja na pol. Pogost prizor po nakupu je, da zaposleni še vedno ročno prenašajo informacije iz treh sistemov v četrtega, samo zdaj se to imenuje uporaba AI."
-  - q: "Kdaj ima Microsoft 365 Copilot največ smisla za naše podjetje?"
-    a: "Copilot ima največ smisla tam, kjer je Microsoft 365 že poslovna hrbtenica: Outlook za e-pošto, Teams za sestanke, SharePoint ali OneDrive za dokumente ter Word, Excel in PowerPoint za vsakodnevno delo. Pogoj je, da so dovoljenja pod nadzorom in dokumenti urejeni, saj Copilot podeduje vašo Microsoft 365 realnost. Če je SharePoint poln zastarelih dokumentov, bo AI videl tudi zastarel kontekst. Pri Copilotu se nakup licence hitro spremeni v pregled informacijske higiene."
-  - q: "Katere štiri stvari mora podjetje urediti, preden AI zares deluje?"
-    a: "Štiri ključne plasti so kontekst, podatki, procesi in merjenje. Kontekst zajema stranke, dogovore, izjeme, ton in meje odgovornosti. Podatki pomenijo, da so ponudbe, računi, CRM zapisi, zapisniki, e-pošta in datoteke dostopni na urejen način. Procesi določajo, kdaj AI pripravlja osnutek, kdaj predlaga odločitev in kdaj mora počakati na človeško potrditev. Merjenje pomeni, da nekdo ve, koliko časa je proces trajal prej in kaj se je izboljšalo. Brez teh štirih plasti vsaka licenca dela preozko."
-  - q: "Kako naj se za AI odloči podjetje glede na velikost?"
-    a: "Za podjetja s 5 do 20 ljudmi je smiselno začeti z enim orodjem in jasnimi pravili, ne s tremi platformami hkrati. Pri 20 do 100 ljudeh licenca brez pravil hitro postane megla, zato potrebujete lastnika AI uporabe, seznam odobrenih orodij in osnovno politiko podatkov. Nad 100 zaposlenih postane izbira vprašanje upravljanja: SSO, dostopi, revizijska sled, skladnost in zadrževanje podatkov niso dodatki, ampak pogoj. Najslabša možnost v vseh velikostih je razpršena osebna raba, kjer nihče ne ve, kaj se dogaja."
-  - q: "Kaj naj naredimo, preden sploh kupimo AI licenco?"
-    a: "Pred nakupom ločite dve odločitvi: izbiro licence in izbiro procesa, ki bo prvi dobil AI podporo. Druga je pomembnejša, ker določi, kaj sploh merite. Izberite en konkreten proces, na primer pripravo ponudbe, povzetek sestanka, mesečno poročilo ali pregled dokumentov. Nato zapišite, katere podatke potrebuje, kdo odloča, kje je tveganje in kako boste vedeli, da je rezultat boljši. Ko to veste, je izbira med ChatGPT, Claudom in Copilotom bistveno lažja, osnovna licenca pa lahko začne ustvarjati resnično vrednost."
+hero_image: hub/content/blog/heroes/chatgpt-claude-copilot-katerega-izbrati/hero.png
+hero_base_image: hub/content/blog/heroes/chatgpt-claude-copilot-katerega-izbrati/base.png
 ---
 
 # Kateri AI za podjetje: ChatGPT, Claude ali Copilot?
@@ -67,10 +54,10 @@ Spodnja tabela je namenoma praktična. Cene so preverjene 30. 5. 2026 na uradnih
 </thead>
 <tbody>
 <tr>
-<td><a href="https://openai.com/es-419/business/chatgpt-pricing/">ChatGPT Business</a></td>
+<td><a href="https://openai.com/business/chatgpt-pricing/">ChatGPT Business</a></td>
 <td>Splošno pisanje, analiza, podatkovne naloge, prilagodljivi GPT-ji, povezave z aplikacijami</td>
 <td>Delovni prostor, vloge, obračun, SAML SSO, MFA, brez učenja na podatkih</td>
-<td>Lokalizirana stran je prikazala GBP 15 na uporabnika mesečno pri letnem obračunu, opomba pa $25 pri mesečnem obračunu</td>
+<td>OpenAI prikazuje lokalizirano ceno po regiji, opomba na uradni strani pa navaja $25 na uporabnika mesečno pri mesečnem obračunu</td>
 <td>Ne pozna vašega CRM-ja, izjem in odločitev, dokler mu jih ne pripeljete</td>
 </tr>
 <tr>
@@ -202,5 +189,70 @@ Izberite en proces. Samo enega. Na primer priprava ponudbe, povzetek sestanka, m
 Ko to veste, je izbira orodja bistveno lažja.
 
 Kateri AI za podjetje torej izbrati? Tistega, ki se najbolje prilega prvemu procesu, ki ga boste dejansko uredili. Če procesa ne uredite, boste kupili še en zavihek. Če ga uredite, lahko tudi osnovna licenca začne ustvarjati resnično vrednost.
+
+## Pogosta vprašanja
+
+<details>
+<summary>Kateri AI za podjetje je najboljša izbira, če še nimamo urejenih procesov?</summary>
+
+Če procesi še niso urejeni, izbira orodja ne sme biti prvi korak. Najprej izberite en poslovni kontekst, kjer je delo dovolj pogosto, dovolj jasno in dovolj merljivo. To je lahko priprava ponudbe, povzetek sestanka, pregled dokumentov ali odgovor na povpraševanje. Šele potem primerjajte, ali se temu procesu bolje prilega ChatGPT Business, Claude Team ali Microsoft 365 Copilot.
+
+V praksi to pomeni, da ne kupujete licence zato, ker je orodje najbolj znano, ampak zato, ker podpira konkretno delo. Če je večina informacij v Microsoft 365 okolju, ima Copilot naravno prednost. Če je jedro naloge v dolgih dokumentih, je Claude pogosto smiselna izbira. Če potrebujete širši AI prostor za različne ekipe, je ChatGPT Business lahko lažji začetek. Brez procesa pa nobena licenca ne postane AI sistem za podjetje. Ostane orodje, ki ga vsak uporablja po svoje.
+
+</details>
+
+<details>
+<summary>Kako naj razumemo primerjavo ChatGPT vs Copilot v poslovnem kontekstu?</summary>
+
+Primerjava ChatGPT vs Copilot je koristna, dokler jo vežete na nalogo, ne na splošni občutek, katero orodje je boljše. ChatGPT Business je običajno bolj odprt prostor za pisanje, analizo, pripravo osnutkov in delo z različnimi vrstami vsebin. Microsoft 365 Copilot je bližje vsakodnevnemu delu v Outlooku, Teamsih, Wordu, Excelu, PowerPointu in dokumentih, ki že živijo v Microsoft 365 okolju.
+
+Poslovni kontekst je zato odločilen. Če mora zaposleni pripraviti osnutek odgovora iz splošnih navodil, je ChatGPT lahko zelo uporaben. Če mora povzeti sestanek ali najti povezane informacije v Microsoft 365 okolju, je Copilot bolj naravno postavljen. Vendar Copilot ni bližnjica mimo reda v dokumentih in dovoljenjih. Če so mape zastarele ali preširoko dostopne, AI podeduje takšno okolje. Zato naj odločitev sledi kontekstu, ki ga orodje dejansko vidi pri vašem delu.
+
+</details>
+
+<details>
+<summary>Kdaj je Claude vs ChatGPT pomembna odločitev za ekipo?</summary>
+
+Odločitev Claude vs ChatGPT je pomembna predvsem takrat, ko že veste, kakšno delo bo ekipa opravljala z AI. Če veliko berete pogodbe, razpise, tehnične opise, pravilnike ali daljše strateške dokumente, je Claude Team pogosto močan kandidat, ker se dobro prilega nalogam, kjer potrebujete mirno razlago in delo z obsežnim besedilom. Če pa potrebujete bolj splošen prostor za različne naloge, od osnutkov besedil do analize tabel in priprave internih pomočnikov, je ChatGPT Business pogosto bolj vsestranska izbira.
+
+Tu odločitev ni tekmovanje za absolutno najboljšega AI, ampak izbira licence z največ uporabnimi ponovitvami v vašem dnevu. Pravna služba ima lahko drugačne potrebe kot marketing, prodaja ali vodstvo. Zato je smiselno primerjati Claude in ChatGPT na enem procesu. Vzemite en resničen dokument, eno resnično nalogo in en pričakovan izhod. Tako hitro vidite, katero orodje manj sili ekipo v dodatno razlaganje.
+
+</details>
+
+<details>
+<summary>Ali potrebujemo ChatGPT Business ali je dovolj osebni račun?</summary>
+
+Za resno poslovno uporabo osebni račun hitro postane organizacijsko tveganje. Pri tem ni pomembno le, ali nekdo zna uporabljati ChatGPT. Enako pomembno je, kdo upravlja dostop, kdo plačuje licence, kateri podatki se smejo uporabljati, kdo zapusti podjetje in kaj se zgodi z zgodovino dela. ChatGPT Business je namenjen temu, da AI uporaba ne ostane razpršena po osebnih profilih, ampak se premakne v delovni prostor z bolj jasnim upravljanjem.
+
+ChatGPT Businessa vam zato ni treba takoj kupiti za vse zaposlene, osebno rabo pa vseeno čim prej ločite od poslovnega konteksta. Če zaposleni v osebne račune kopirajo pogodbe, ponudbe, podatke strank ali interne odločitve, podjetje nima dobrega pregleda nad uporabo AI. Boljši pristop je omejen začetek: določite ekipo, naloge, dovoljene podatke in pravila preverjanja. Licenca je potem del sistema, ne samostojen odgovor.
+
+</details>
+
+<details>
+<summary>Kaj mora podjetje urediti pred uvedbo Claude Team ali Microsoft 365 Copilot licenc?</summary>
+
+Pred uvedbo Claude Team ali Microsoft 365 Copilot licenc uredite predvsem tri stvari: podatke, pravice dostopa in odgovornost za izhode. Pri Claude Team je pomembno, da veste, kateri dokumenti se lahko nalagajo, kdo preveri povzetke in kje AI ne sme nadomestiti strokovne presoje. Pri Microsoft 365 Copilotu je posebej pomembno, da so dokumenti, mape in dovoljenja v Microsoft 365 okolju dovolj urejeni, ker orodje deluje znotraj obstoječega informacijskega prostora.
+
+To je pogosto bolj praktično vprašanje kot tehnološko. Kateri SharePoint dokument je zadnja verzija? Kdo lahko vidi občutljive podatke? Katere pogodbe lahko AI povzema? Kdaj je rezultat samo osnutek in kdaj ga nekdo potrdi? Če odgovori niso jasni, uvedba licenc poveča hitrost, ne pa nujno kakovosti. Dober začetek je majhna skupina uporabnikov, en proces in jasna pravila. Tako se AI sistem gradi iz dela, ki ga podjetje res opravlja.
+
+</details>
+
+<details>
+<summary>Kako naj primerjamo licence, ne da bi odločitev omejili samo na ceno?</summary>
+
+Licence primerjajte kot del stroška uvedbe, ne kot celotno odločitev. Cena na uporabnika je vidna in jo je lahko primerjati, toda v poslovnem kontekstu pogosto niso najdražji evri za licenco. Dražji so nejasni procesi, podvajanje dela, napačni odgovori, slabo urejeni dostopi in čas, ki ga ekipa porabi za popravljanje izhodov. Zato vprašanje ni samo, koliko stanejo ChatGPT Business, Claude Team ali Microsoft 365 Copilot, ampak kaj mora biti urejeno, da bo licenca ustvarila vrednost.
+
+Praktičen način primerjave je preprost. Izberite en proces in ocenite, koliko časa vzame danes, kdo sodeluje, kateri podatki so potrebni in kje nastane tveganje. Nato preverite, katero orodje ta proces podpre z najmanj dodatnega kopiranja, razlaganja in ročnega preverjanja. Tako cena ostane pomembna, vendar ne vodi celotne odločitve. Včasih je cenejša licenca dražja, če ne vidi pravega konteksta.
+
+</details>
+
+<details>
+<summary>Kdaj AI orodje preraste v AI sistem za podjetje?</summary>
+
+AI orodje preraste v AI sistem za podjetje takrat, ko ni več odvisno samo od spretnosti posameznega uporabnika. Pri osebni uporabi nekdo odpre ChatGPT, Claude ali Copilot, napiše vprašanje in sam presodi odgovor. Pri sistemu je drugače. Vnaprej je jasno, kateri proces podpirate, kateri podatki so dovoljeni, kdo je odgovoren za preverjanje, kaj se zgodi ob izjemi in kako merite izboljšanje.
+
+Za to ne potrebujete velikega projekta. Začnete lahko majhno. Na primer: en tip ponudbe, en tip sestanka ali en tip dokumenta. Pomembno je, da AI ne dela vsakič iz nič, ampak uporablja ponovljiv poslovni kontekst. Takrat licence postanejo del urejenega poteka dela. ChatGPT Business, Claude Team in Microsoft 365 Copilot so lahko vsak zase zelo uporabni, vendar šele proces, podatki in pravila določijo, ali bo AI postal zanesljiv del podjetja.
+
+</details>
 
 > **Preden kupite licence, preverite prvi proces.** [Rezervirajte 30-minutni pregled pripravljenosti.](https://aisistemi.si/pregled-pripravljenosti) V 30 minutah pogledamo, ali potrebujete ChatGPT, Claude, Copilot ali najprej bolj urejen poslovni kontekst.

@@ -30,6 +30,7 @@ export type BlogPostMeta = {
 export type BlogPost = BlogPostMeta & {
   html: string;
   rawBody: string;
+  bodyHasFaqSection: boolean;
 };
 
 function fileSlugs(): string[] {
@@ -75,6 +76,28 @@ function normalizeFaq(value: unknown): FaqItem[] {
       return { q, a };
     })
     .filter((x): x is FaqItem => x !== null);
+}
+
+function parseFaqFromBody(body: string): FaqItem[] {
+  const faqHeadingMatch = body.match(/^##\s+(?:Pogosta\s+vpra[sš]anja|FAQ)\s*$/im);
+  if (!faqHeadingMatch) return [];
+  const startIdx = body.indexOf(faqHeadingMatch[0]);
+  const after = body.slice(startIdx + faqHeadingMatch[0].length);
+  const nextH2 = after.search(/\n##\s+[^#]/);
+  const section = nextH2 === -1 ? after : after.slice(0, nextH2);
+
+  const items: FaqItem[] = [];
+  const blockRe = /<details>\s*<summary>([\s\S]*?)<\/summary>([\s\S]*?)<\/details>/gi;
+  let m: RegExpExecArray | null;
+  while ((m = blockRe.exec(section)) !== null) {
+    const q = m[1].replace(/\s+/g, " ").trim();
+    const a = m[2]
+      .replace(/<[^>]+>/g, "")
+      .replace(/\s+/g, " ")
+      .trim();
+    if (q && a) items.push({ q, a });
+  }
+  return items;
 }
 
 function normalizeMeta(slug: string, data: Record<string, unknown>): BlogPostMeta {
@@ -125,8 +148,13 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
   if (meta.status !== "published") return null;
 
   const body = stripLeadingH1(parsed.content);
+  const bodyFaq = parseFaqFromBody(body);
+  const bodyHasFaqSection = bodyFaq.length > 0;
+  if (meta.faq.length === 0 && bodyHasFaqSection) {
+    meta.faq = bodyFaq;
+  }
   const processed = await remark().use(remarkGfm).use(remarkHtml, { sanitize: false }).process(body);
-  return { ...meta, html: processed.toString(), rawBody: body };
+  return { ...meta, html: processed.toString(), rawBody: body, bodyHasFaqSection };
 }
 
 export function getAllPublishedSlugs(): string[] {

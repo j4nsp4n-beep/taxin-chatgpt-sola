@@ -15,27 +15,12 @@ topic: T18
 tip: SEO+GEO
 author: Jan Špan
 publisher: AI Sistemi
-date: 2026-05-30
-status: draft
+date: 2026-05-31
+status: published
 title_tag: "Brezplačna umetna inteligenca v slovenščini"
 meta_description: "Brezplačna umetna inteligenca v slovenščini ni brez stroška. Preverite, kje podjetje plača s časom, kontekstom in varnostjo."
 hero_image: hub/content/blog/heroes/brezplacna-umetna-inteligenca-v-slovenscini/hero.png
 hero_base_image: hub/content/blog/heroes/brezplacna-umetna-inteligenca-v-slovenscini/base.png
-faq:
-  - q: "Ali je brezplačna umetna inteligenca v slovenščini sploh uporabna za podjetje?"
-    a: "Da, vendar v omejenem obsegu. Brezplačni ChatGPT, Gemini, Claude in podobna orodja znajo pripraviti spodobne slovenske osnutke, predloge strukture in skrajšati predolga sporočila. V podjetju so najbolj koristna tam, kjer je tveganje nizko in kontekst preprost: prvi osnutki vabil ali obvestil, preoblikovanje že odobrenega besedila in iskanje idej. Za osebno uporabo je to pogosto dovolj. Pri ponudbah, pogodbah ali odgovorih strankam pa orodje ne pozna vaših cenikov, dogovorov in izjem, zato samo po sebi ni zanesljiv delovni sistem."
-  - q: "Kaj brezplačna AI dejansko stane, če ne plačamo naročnine?"
-    a: "Strošek se premakne v pet področij. Prvi je čas za pripravo konteksta, ko mora sodelavec orodju razložiti stranko, dokumente in ton. Drugi je preverjanje imen, datumov, zneskov in sklicev, saj AI lahko piše samozavestno tudi brez podatkov. Tretji so popravki, ki sprožijo notranje usklajevanje. Četrti je varnost, ker mora podjetje vedeti, kateri podatki smejo v orodje. Peti so napačna pričakovanja: bruto čas je krajši, neto čas pa pogosto ni. Temu pravimo T18 paradoks."
-  - q: "Zakaj slovenščina v modelu ne pomeni, da je orodje poslovno uporabno?"
-    a: "Knjižna slovenščina in poslovni jezik vašega podjetja nista isto. Modeli danes znajo napisati spodobno slovensko e-pošto, ne poznajo pa imen strank, preteklih dogovorov, posebnih popustov, zamud, izjem in internih načinov odločanja. Primer: prodajnik prosi AI za odgovor stranki, ki zahteva popust. Odgovor bo lep, lahko zelo lep. Poslovno pa je lahko napačen, ker AI ne ve za dve odprti reklamaciji, drugačen rok, ki ga je obljubil direktor, in nizko maržo na izdelku. Brez kontekstne plasti AI ostane dober pisec, ne zanesljiv sistem."
-  - q: "Kako naj izmerim, ali nam AI orodje res prihrani čas?"
-    a: "Uporabite formulo: neto prihranek = čas pred AI minus čas po AI, pri čemer čas po AI vključuje pripravo konteksta, generiranje, preverjanje dejstev, popravke in vnos rezultata nazaj v CRM ali dokument. Primer iz bloga: odgovor stranki je pred AI trajal 45 minut, osnutek z AI nastane v 3 minutah, a celota traja 38 minut. Realni prihranek je 7 minut, ne 42. Če zaradi napake v tonu posreduje še vodja, prihranka morda sploh ni. Merite po celotni poti dela."
-  - q: "Kdaj je čas, da brezplačno orodje zamenjamo za AI sistem?"
-    a: "Pet znakov kaže na to. Prvi: isti kontekst se ponavlja in sodelavci vsak dan kopirajo enake razlage v ChatGPT. Drugi: prihranek ni izmerjen, vsi imajo občutek pomoči, nihče ne ve, kateri proces je krajši. Tretji: osebni računi brez pravil, vsak uporablja svoje orodje s svojo zgodovino. Četrti: vsak odgovor mora potrditi najbolj izkušena oseba, kar prestavi delo na najdražji člen ekipe. Peti: rezultat se ne vrne v CRM ali delovni tok, dobite hitrejši osnutek, ne hitrejšega procesa."
-  - q: "Kaj nam o brezplačni AI in podjetjih povedo zadnji podatki?"
-    a: "Po podatkih Eurostata za 2025 je vsaj eno AI tehnologijo uporabljalo 20,21 odstotka slovenskih MSP z 10 do 249 zaposlenimi, le 2,62 odstotka pa za avtomatizacijo potekov dela ali pomoč pri odločanju. Povprečje EU za drugo številko je 4,78 odstotka. Razlika kaže ločnico med uporabo AI in vgradnjo v proces. Raziskava HBR, BetterUp Labs in Stanford Social Media Lab je pokazala, da je 40 odstotkov ameriških pisarniških delavcev v zadnjem mesecu prejelo AI pripravljeno delo nizke uporabne vrednosti, ki nalogo prestavi na prejemnika."
-  - q: "Kaj o zasebnosti in skladnosti moramo vedeti pri brezplačnih orodjih?"
-    a: "Pri OpenAI velja, da se poslovni podatki v ChatGPT Business, Enterprise, Edu in API privzeto ne uporabljajo za učenje modelov. Pri osebnih pogovorih mora uporabnik sam razumeti nastavitve za uporabo podatkov in začasne pogovore. Če sodelavec v brezplačno orodje prilepi osebne podatke stranke, interno ponudbo ali podatke o zaposlenem, podjetje potrebuje jasen odgovor, ali je bilo to dovoljeno, kje je zabeleženo in kdo nosi odgovornost. Od 2. februarja 2025 velja tudi 4. člen EU AI Act, ki zahteva ustrezno raven AI pismenosti pri ponudnikih in uporabnikih."
 ---
 
 # Brezplačna umetna inteligenca v slovenščini
@@ -205,5 +190,61 @@ Brezplačna umetna inteligenca v slovenščini je dober začetek, ko želite raz
 Cena naročnine je najmanjši del zgodbe.
 
 Večji del je vprašanje, kdo nosi kontekst, kdo preveri odgovor in kje se rezultat shrani, ko je delo opravljeno.
+
+## Pogosta vprašanja
+
+<details>
+<summary>Ali je brezplačna umetna inteligenca v slovenščini dovolj za podjetje?</summary>
+
+Za prvi preizkus je brezplačna umetna inteligenca v slovenščini pogosto dovolj, posebej kadar želite preveriti, ali AI sploh razume vaš ton, jezik in osnovno nalogo. Uporabna je za osnutke, preoblikovanje besedila, povzetke javnih gradiv in pripravo vprašanj za sestanek. Pri takih nalogah je tveganje omejeno, človek pa lahko hitro presodi, ali je rezultat uporaben.
+
+Za poslovno uporabo pa samo dobra slovenščina ne zadostuje. Podjetje potrebuje jasen kontekst: kdo je stranka, kakšen je dogovor, katere informacije so zaupne, kdo sme odobriti odgovor in kje se rezultat shrani. Če mora zaposleni pri vsaki nalogi ročno razlagati isto ozadje, se skriti strošek hitro nabere. Zato je brezplačna AI dober začetek za učenje in merjenje, ne pa samodejen dokaz, da je proces že pripravljen za širšo uporabo.
+
+</details>
+
+<details>
+<summary>Kdaj je brezplačni ChatGPT primeren za poslovno uporabo?</summary>
+
+Brezplačni ChatGPT je primeren predvsem takrat, ko naloga ne zahteva občutljivih podatkov, pravne natančnosti ali poznavanja internih dogovorov. Dobro se obnese pri pisanju prvega osnutka e-pošte, krajšanju predolgega besedila, razlagi javno znane teme, pripravi strukture za blog ali iskanju različnih načinov, kako povedati isto stvar bolj jasno. Pri tem naj rezultat ostane osnutek, ne končna odločitev.
+
+V podjetju je meja drugačna kot pri osebni uporabi. Če v orodje vnašate podatke o strankah, zaposlenih, cenah, pogodbah ali pritožbah, potrebujete pravila. Članek že opozori, da [OpenAI za poslovne pakete](https://openai.com/business-data) navaja drugačen režim uporabe poslovnih podatkov kot pri osebnih pogovorih, zato je pomembno razumeti razliko med brezplačnim računom in poslovnim okoljem. V praksi je varno izhodišče preprosto: uporabljajte ga za naloge z nizkim tveganjem, končni odgovor pa naj pregleda odgovorna oseba.
+
+</details>
+
+<details>
+<summary>Kje nastane skriti strošek brezplačne AI?</summary>
+
+Skriti strošek brezplačne AI običajno ne nastane pri odpiranju orodja, temveč pri delu okrog njega. Najprej morate pripraviti kontekst. AI orodju razložite stranko, namen, omejitve, ton, pretekle dogovore in želeni izhod. Nato pride preverjanje. Pregledati morate dejstva, datume, zneske, imena, obljube in slog, ker lahko odgovor zveni prepričljivo tudi takrat, ko ni dovolj natančen.
+
+Tretji del stroška so popravki. En sodelavec popravi vsebino, drugi ton, tretji vpraša, ali je odgovor sploh skladen z dogovorom. Na koncu je treba rezultat še prenesti v e-pošto, CRM, dokument ali projektno orodje. Zato je brezplačna umetna inteligenca za podjetje smiselna šele, ko merite celoten potek dela. Če gledate samo hitrost generiranja osnutka, lahko dobite občutek prihranka, dejanski proces pa ostane skoraj enako dolg.
+
+</details>
+
+<details>
+<summary>Kako naj podjetje varno uporablja umetno inteligenco v slovenščini?</summary>
+
+Varna uporaba se začne z jasnimi mejami. Podjetje mora določiti, kateri podatki smejo v AI orodje, kateri ne, kdo lahko uporablja osebne račune in kdaj je potreben poslovni paket ali bolj nadzorovan [AI sistem za podjetje](https://aisistemi.si/ai-sistem-za-podjetje). Umetna inteligenca v slovenščini lahko napiše dober odgovor, vendar to še ne pomeni, da sme videti vsebino ponudbe, pritožbe, pogodbe ali internega zapisa.
+
+Praktično pravilo je, da pri občutljivih nalogah najprej odstranite nepotrebne osebne podatke in poslovne podrobnosti. Nato določite, kdo preveri rezultat in kam se shrani končna različica. Pomembna je tudi AI pismenost. Članek omenja [4. člen EU AI Act](https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers), ki od ponudnikov in uporabnikov AI sistemov zahteva ukrepe za ustrezno raven razumevanja priložnosti, tveganj in meja uporabe. V vsakdanjem delu se to pozna tako, da zaposleni vedo, kdaj je AI pomoč in kdaj tveganje.
+
+</details>
+
+<details>
+<summary>Kdaj se splača preiti na plačljiva orodja ali AI sistem?</summary>
+
+Plačljiva orodja ali AI sistem so smiselni, ko brezplačna uporaba začne ponavljati isto trenje. Če sodelavci vsak dan kopirajo enake podatke v brezplačni ChatGPT, ročno povzemajo isto ozadje in nato rezultate prenašajo nazaj v CRM, se vprašanje premakne z izbire orodja na potek dela. Takrat plačljiva orodja niso pomembna samo zaradi dodatnih funkcij, temveč zaradi nadzora, pravil, dostopov in povezave s kontekstom podjetja.
+
+Drugi znak je varnost podatkov. Osebni računi brez dogovorjenih pravil hitro ustvarijo nejasnost: kdo je kaj vnesel, ali je bilo dovoljeno in kdo je preveril rezultat. Tretji znak je preverjanje. Če mora vse odgovore potrditi najbolj izkušena oseba, se delo premakne na najdražji del ekipe. Plačljiv pristop je smiseln, ko imate konkreten proces, merljiv cilj in jasno odgovornost, ne samo željo po novem AI orodju.
+
+</details>
+
+<details>
+<summary>Kako preverite, ali brezplačna AI res prihrani čas?</summary>
+
+Najprej izberite en ponovljiv proces, na primer odgovor na povpraševanje, pripravo ponudbe, povzetek sestanka ali obdelavo reklamacije. Nato izmerite čas pred uporabo AI in čas po njej. Pri času po AI ne štejte samo generiranja odgovora. Vključite pripravo konteksta, preverjanje dejstev, popravke, odobritev in prenos rezultata nazaj v sistem, kjer ekipa dejansko dela.
+
+Ta način pokaže razliko med občutkom in neto prihrankom. Brezplačna umetna inteligenca lahko osnutek pripravi zelo hitro, vendar se del prihranka izgubi, če morate dolgo razlagati ozadje ali popravljati samozavestne, a nepopolne odgovore. Če po merjenju vidite jasen prihranek, imate dober kandidat za širitev. Če ga ne vidite, ste našli ozko grlo: morda manjka kontekst, morda pravila, morda povezava s CRM-jem. Oboje je koristna informacija pred izbiro plačljivega orodja.
+
+</details>
 
 > **Preden izberete novo orodje, preverite proces.** [Rezervirajte 30-minutni pregled pripravljenosti.](https://aisistemi.si/pregled-pripravljenosti) V 30 minutah pogledamo, ali pri vas manjka orodje, kontekst ali jasen način dela.
