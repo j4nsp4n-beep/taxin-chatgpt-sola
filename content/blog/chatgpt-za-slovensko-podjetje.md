@@ -107,7 +107,7 @@ Pri osebnem Free, Plus ali Pro računu je [deljenje podatkov za izboljšanje mod
 
 V svetu GDPR-ja to pomeni: davčna številka stranke, ime in priimek, znesek, podatki o zaposlenih. Če sodelavec te podatke vnese v osebni račun brez dogovorjenih pravil, podjetje pogosto nima ne evidence ne jasne meje, kaj sme v AI in kaj ne.
 
-Od 2. februarja 2025 se v EU uporablja [4. člen Uredbe o umetni inteligenci](https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy), ki od ponudnikov in uporabnikov sistemov AI zahteva ustrezno raven AI pismenosti pri ljudeh, ki z njimi delajo. V poslovnem jeziku to pomeni dvoje: ljudje morajo znati uporabljati orodje in razumeti, kaj se zgodi s podatki, ki jih vnesejo.
+Od 2. februarja 2025 se v EU uporablja [4. člen Uredbe o umetni inteligenci](https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy), ki od ponudnikov in uporabnikov sistemov AI zahteva [ustrezno raven AI pismenosti](https://aisistemi.si/blog/eu-ai-act-clen-4-obveznost-usposabljanja) pri ljudeh, ki z njimi delajo. V poslovnem jeziku to pomeni dvoje: ljudje morajo znati uporabljati orodje in razumeti, kaj se zgodi s podatki, ki jih vnesejo.
 
 V praksi je to pri marsikomu še neurejeno: kdo sme uporabljati AI, s kakšnimi podatki, za katere naloge in pod kakšnimi pogoji.
 
@@ -131,7 +131,7 @@ Zato večina slovenskih podjetij po pol leta uporabe ChatGPT-ja ne zna izmeriti 
 
 Med vašim podjetjem in katerimkoli modelom AI (ChatGPT, Claude, Copilot, Gemini) je prazen prostor. Vsak ponudnik prodaja orodje. Vsak ponudnik razvija model. Skoraj nihče pa ne gradi tistega vmes.
 
-Da AI v podjetju deluje, morajo obstajati štiri plasti:
+Da AI v podjetju deluje, morajo obstajati [štiri plasti](https://aisistemi.si/blog/kako-uvesti-ai-v-podjetje-4-plasti):
 
 1. **Kontekst.** Pravila, odločitve, zgodovina. Kdo je kdo, kaj je bilo dogovorjeno, kaj velja kot standard. *Pomislite na dogovor s ključno stranko o posebnem popustu, ki je nastal na sestanku marca.*
 2. **Podatki.** CRM, ERP, e-pošta, dokumenti. Vse mora biti zbrano na mestu, kjer lahko AI podatke prebere. *Pri vodji prodaje sta zadnji niz sporočil s stranko in zadnja izdana ponudba v istem dosegu.*
@@ -182,7 +182,7 @@ Primer: če sodelavec vsak delovni dan dvakrat porabi po 15 minut za zbiranje ko
 
 Vprašajte se: je problem v ChatGPT-ju ali v tem, da vaše podjetje konteksta nima zbranega na enem mestu?
 
-Če je odgovor drugi, in običajno je, potem zamenjava ChatGPT-ja za Claude, Copilot ali Gemini ne bo nič spremenila. Vsi so generične platforme. Nobeden ne pozna vašega podjetja.
+Če je odgovor drugi, in običajno je, potem [zamenjava ChatGPT-ja za Claude, Copilot ali Gemini](https://aisistemi.si/blog/chatgpt-claude-copilot-katerega-izbrati) ne bo nič spremenila. Vsi so generične platforme. Nobeden ne pozna vašega podjetja.
 
 Drugače povedano: če je vaš kontekst razpršen po treh sistemih, je vsak generični AI še četrti sistem, v katerega ga morate ročno prenesti. Pred izbiro boljšega modela uredite mesto, kjer lahko AI kontekst dejansko uporabi.
 

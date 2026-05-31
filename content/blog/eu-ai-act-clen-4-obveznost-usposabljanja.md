@@ -24,7 +24,7 @@ hero_base_image: hub/content/blog/heroes/eu-ai-act-clen-4-obveznost-usposabljanj
 
 # EU AI Act Slovenija: kaj člen 4 pomeni za usposabljanje zaposlenih
 
-Marca 2023 je ChatGPT v slovenskem podjetju pomenil novo orodje.
+Marca 2023 je [ChatGPT v slovenskem podjetju](https://aisistemi.si/blog/chatgpt-za-slovensko-podjetje) pomenil novo orodje.
 
 Maja 2026 pomeni tudi novo obveznost.
 
@@ -44,7 +44,7 @@ Uradno besedilo [Regulation (EU) 2024/1689 na EUR-Lex](https://eur-lex.europa.eu
 
 To je široko.
 
-Za podjetje, ki uporablja ChatGPT, Copilot ali drug AI sistem pri delu, je najbolj pomembna beseda "uporabnik". V uredbi se uporablja izraz deployer: oseba ali organizacija, ki uporablja AI sistem pod svojo odgovornostjo v poklicnem kontekstu. Za večino slovenskih podjetij to pomeni: če zaposleni uporabljajo AI pri službenem delu, podjetje tega ne more obravnavati kot zasebnega eksperimenta.
+Za podjetje, ki uporablja [ChatGPT, Copilot ali drug AI sistem](https://aisistemi.si/blog/chatgpt-claude-copilot-katerega-izbrati) pri delu, je najbolj pomembna beseda "uporabnik". V uredbi se uporablja izraz deployer: oseba ali organizacija, ki uporablja AI sistem pod svojo odgovornostjo v poklicnem kontekstu. Za večino slovenskih podjetij to pomeni: če zaposleni uporabljajo AI pri službenem delu, podjetje tega ne more obravnavati kot zasebnega eksperimenta.
 
 Obveznost se prilagaja vlogi. Zaposleni v administraciji ne potrebuje istega znanja kot razvijalec internega AI sistema. Direktor ne potrebuje istega tečaja kot oseba, ki vsak dan pripravlja odgovore strankam. Vsi pa potrebujejo dovolj razumevanja, da ne prenašajo občutljivih podatkov v napačno orodje, ne zaupajo izmišljenim virom in vedo, kdaj mora človek pregledati rezultat.
 
@@ -104,7 +104,7 @@ Podjetje potrebuje vsaj tri ravni usposabljanja zaposlenih za AI.
 
 **Prva raven: osnovni uporabniki.**
 
-To so ljudje, ki uporabljajo AI za osnutke e-pošte, povzetke, prevode, ideje, interne zapiske ali pripravo besedil. Potrebujejo jasna pravila o podatkih, virih, halucinacijah, avtorskih pravicah in pregledu rezultatov.
+To so ljudje, ki uporabljajo AI za osnutke e-pošte, povzetke, prevode, ideje, interne zapiske ali pripravo besedil. Potrebujejo jasna pravila o podatkih, virih, [halucinacijah](https://aisistemi.si/blog/zakaj-ai-halucinira-kontekstno-breme), avtorskih pravicah in pregledu rezultatov.
 
 **Druga raven: napredni uporabniki.**
 

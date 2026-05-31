@@ -45,7 +45,7 @@ To je razumno. Nihče ne želi uvajati dragega sistema, preden vidi, ali umetna 
 
 Iskalni namen je zato praktičen. Katero orodje lahko odprem danes? Ali deluje slovensko? Ali moram plačati? Ali lahko preizkusim brez pogodbe, uvajanja in sestanka z dobaviteljem?
 
-Na tej ravni je odgovor preprost: da. Brezplačni ChatGPT, Gemini, Claude in podobna AI orodja znajo pomagati pri slovenskem besedilu. Lahko napišejo osnutek. Lahko predlagajo strukturo. Lahko skrajšajo predolgo sporočilo.
+Na tej ravni je odgovor preprost: da. Brezplačni [ChatGPT, Gemini, Claude](https://aisistemi.si/blog/chatgpt-claude-copilot-katerega-izbrati) in podobna AI orodja znajo pomagati pri slovenskem besedilu. Lahko napišejo osnutek. Lahko predlagajo strukturo. Lahko skrajšajo predolgo sporočilo.
 
 Za osebno uporabo je to pogosto dovolj.
 
@@ -117,7 +117,7 @@ Zato se pri podjetjih vprašanje "AI orodja slovenščina" hitro spremeni v drug
 
 Če je kontekst razpršen po e-pošti, Drive-u, Excelu, CRM-ju in spominu zaposlenih, bo vsako brezplačno orodje zahtevalo ročno razlago. Vsak dan. Pri vsaki pomembni nalogi.
 
-Na [AI Sistemi](https://aisistemi.si/) temu pravimo kontekstna plast. Brez nje AI ostane dober pisec, ne pa zanesljiv delovni sistem.
+Na [AI Sistemi](https://aisistemi.si/) temu pravimo [kontekstna plast](https://aisistemi.si/blog/chatgpt-za-slovensko-podjetje). Brez nje AI ostane dober pisec, ne pa zanesljiv delovni sistem.
 
 ## Kako izračunati neto vrednost brezplačnega AI orodja?
 
@@ -162,7 +162,7 @@ Drugi znak je neizmerjen prihranek. Vsi imajo občutek, da AI pomaga, nihče pa 
 
 Tretji znak so osebni računi brez pravil. Nekdo uporablja eno orodje, drugi drugo, tretji nalaga dokumente v brezplačni paket, četrti ima zgodovino pogovorov polno občutljivih podatkov. Zaposleni tu pogosto niso glavni problem. Meja jim ni bila postavljena.
 
-Od 2. februarja 2025 se uporablja [4. člen EU AI Act](https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers), ki od ponudnikov in uporabnikov AI sistemov zahteva ukrepe za ustrezno raven AI pismenosti. Za podjetje to pomeni osnovno pravilo: ljudje morajo razumeti priložnosti, tveganja in meje uporabe.
+Od 2. februarja 2025 se uporablja [4. člen EU AI Act](https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers), ki od ponudnikov in uporabnikov AI sistemov zahteva ukrepe za [ustrezno raven AI pismenosti](https://aisistemi.si/blog/eu-ai-act-clen-4-obveznost-usposabljanja). Za podjetje to pomeni osnovno pravilo: ljudje morajo razumeti priložnosti, tveganja in meje uporabe.
 
 Četrti znak je ozko grlo pri preverjanju. Če mora vsak AI odgovor na koncu potrditi najbolj izkušena oseba, ste morda samo prestavili delo na najdražji del ekipe.
 

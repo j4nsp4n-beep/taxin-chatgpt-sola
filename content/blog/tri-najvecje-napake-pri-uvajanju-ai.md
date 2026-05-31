@@ -108,7 +108,7 @@ AI nad nepripravljenim procesom običajno najprej pospeši delo. Odgovori nastan
 
 Potem pride vsakdan.
 
-Ena oseba uporablja zadnji cenik, druga starega. Dogovor s stranko je v e-pošti, izjema v zapisku sestanka, pravilo za odobritev pa v glavi vodje. AI ne more vedeti, kateri podatek je pravilen, če tega ne ve niti proces.
+Ena oseba uporablja zadnji cenik, druga starega. Dogovor s stranko je v e-pošti, izjema v zapisku sestanka, pravilo za odobritev pa v glavi vodje. [AI ne more vedeti, kateri podatek je pravilen](https://aisistemi.si/blog/zakaj-ai-halucinira-kontekstno-breme), če tega ne ve niti proces.
 
 Nepripravljen proces ima običajno štiri simptome:
 1. isti korak ljudje izvajajo na več načinov
@@ -176,7 +176,7 @@ Praktičen vrstni red:
 
 Pri prvem procesu ne iščete popolnosti. Iščete dokaz, da lahko AI zmanjša trenje v realnem delu. Če dokaz dobite, lahko enak pristop prenesete na drugi proces. Če ga ne dobite, ste preprečili širjenje napačnega vzorca.
 
-To je tudi najbolj pošten način, kako uvesti AI v podjetje: brez obljube čudeža in z jasnim pogojem, da podjetje najprej razume lastno delo.
+To je tudi najbolj pošten način, [kako uvesti AI v podjetje](https://aisistemi.si/blog/kako-uvesti-ai-v-podjetje-4-plasti): brez obljube čudeža in z jasnim pogojem, da podjetje najprej razume lastno delo.
 
 Na [AI Sistemi](https://aisistemi.si/) ta pregled začnemo pri enem procesu, ker se tam hitro pokaže resnica. Ali obstaja jasen lastnik? Ali so podatki dosegljivi? Ali so pravila zapisana? Ali je odgovornost razdeljena med AI in človeka?
 
@@ -186,7 +186,7 @@ Ko so odgovori jasni, orodje postane lažja odločitev.
 
 Tri napake pri uvajanju AI imajo skupen izvor: podjetje preskoči pripravo dela in prehitro začne pri tehnologiji.
 
-Platforma brez sistema ljudem naloži, da vsak dan znova nosijo kontekst v orodje. Preveč procesov razprši energijo, preden se pokaže prvi dokaz. AI nad nepripravljenim procesom pospeši tisto, kar bi morali najprej razčistiti.
+Platforma brez sistema ljudem naloži, da vsak dan znova nosijo kontekst v orodje. Preveč procesov razprši energijo, preden se pokaže prvi dokaz. [AI nad nepripravljenim procesom](https://aisistemi.si/blog/digitalizacija-podjetja-brez-procesov) pospeši tisto, kar bi morali najprej razčistiti.
 
 Dober prvi projekt je ozek.
 

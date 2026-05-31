@@ -59,7 +59,7 @@ Model sam po sebi ne ve, kateri podatek je zadnji. Ne ve, kateri dogovor s stran
 
 Ker splošna definicija ne pove, kaj se mora v podjetju spremeniti.
 
-Če umetno inteligenco razumete kot "pametno programsko opremo", boste najprej iskali orodje. ChatGPT, Claude, Copilot, Gemini. Primerjali boste modele, naročnine in funkcije. To je razumljivo, a hitro postane slepa ulica.
+Če umetno inteligenco razumete kot "pametno programsko opremo", boste najprej iskali orodje. [ChatGPT, Claude, Copilot, Gemini](https://aisistemi.si/blog/chatgpt-claude-copilot-katerega-izbrati). Primerjali boste modele, naročnine in funkcije. To je razumljivo, a hitro postane slepa ulica.
 
 Vodja potrebuje drugo vprašanje: kateri del našega dela ima dovolj jasen kontekst, da ga lahko AI varno podpre?
 
@@ -112,7 +112,7 @@ Vse to zveni preprosto.
 
 V praksi se zatakne pri zemljevidu.
 
-Podjetje ima informacije razpršene po e-pošti, Drive-u, CRM-ju, ERP-ju, mapah in glavah posameznikov. AI brez zemljevida po teh virih ne more vedeti, kam pogledati. Zato boljši model pogosto ne reši težave. Reši jo urejen kontekst.
+Podjetje ima informacije razpršene po e-pošti, Drive-u, CRM-ju, ERP-ju, mapah in glavah posameznikov. AI brez zemljevida po teh virih ne more vedeti, kam pogledati. Zato boljši model pogosto ne reši težave. Reši jo [urejen kontekst](https://aisistemi.si/blog/zakaj-ai-halucinira-kontekstno-breme).
 
 To je tudi razlog, zakaj pri [AI Sistemi](https://aisistemi.si/) govorimo o plasti med podjetjem in modelom. [AI sistem za podjetje](https://aisistemi.si/ai-sistem-za-podjetje) mora razumeti znanje, podatke, orodja in procese, drugače ostane samo še eno mesto, kamor človek ročno prenaša informacije.
 
@@ -142,7 +142,7 @@ Včasih je to dober začetek. Ne sme pa ostati končno stanje.
 
 Začnite manjše, kot bi si želeli.
 
-Izberite en proces. Ne oddelka. Ne cele digitalne preobrazbe. En proces, ki se ponavlja, ima jasen začetek, jasen konec in dovolj ponovitev, da se izboljšava sploh pozna.
+Izberite en proces. Ne oddelka. Ne cele [digitalne preobrazbe](https://aisistemi.si/blog/digitalizacija-podjetja-brez-procesov). En proces, ki se ponavlja, ima jasen začetek, jasen konec in dovolj ponovitev, da se izboljšava sploh pozna.
 
 Potem popišite kontekst. Katere dokumente človek danes odpre? Koga vpraša? Kateri podatek vedno manjka? Katera izjema se pogosto pojavi? Kje je zadnji veljaven cenik? Katero pravilo vsi poznajo, a ni nikjer zapisano?
 

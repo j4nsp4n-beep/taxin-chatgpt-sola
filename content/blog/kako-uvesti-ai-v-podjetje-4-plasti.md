@@ -29,7 +29,7 @@ Ne sprašujte, katero AI orodje izbrati.
 
 Vprašajte, kateri proces ima dovolj konteksta, da lahko AI v njem naredi zanesljivo delo.
 
-To je ostrejše vprašanje. Tudi bolj uporabno. Ko podjetje išče, kako uvesti AI v podjetje, se pogovor hitro premakne k ChatGPT-ju, Copilotu, Claudu, Gemini ali novi platformi, ki jo je nekdo pokazal na sestanku. Orodje je vidno. Gumb je konkreten. Račun se lahko odpre danes.
+To je ostrejše vprašanje. Tudi bolj uporabno. Ko podjetje išče, kako uvesti AI v podjetje, se pogovor hitro premakne k [ChatGPT-ju, Copilotu, Claudu, Gemini](https://aisistemi.si/blog/chatgpt-claude-copilot-katerega-izbrati) ali novi platformi, ki jo je nekdo pokazal na sestanku. Orodje je vidno. Gumb je konkreten. Račun se lahko odpre danes.
 
 Toda račun še ne spremeni dela.
 
@@ -146,7 +146,7 @@ Dober prvi proces ima šest lastnosti:
 
 Primer je priprava prvega osnutka ponudbe. Drug primer je povzetek sestanka s seznamom nalog. Tretji je priprava odgovora na pogosto vprašanje stranke, kjer AI pripravi osnutek, strokovnjak pa preveri vsebino.
 
-Slab prvi proces je nekaj, kjer so podatki neurejeni, odgovornost nejasna, tveganje visoko in nihče ne ve, kaj pomeni dober rezultat. Tam AI ne bo razjasnil dela. Samo hitreje bo pokazal, da delo ni razjasnjeno.
+[Slab prvi proces](https://aisistemi.si/blog/tri-najvecje-napake-pri-uvajanju-ai) je nekaj, kjer so podatki neurejeni, odgovornost nejasna, tveganje visoko in nihče ne ve, kaj pomeni dober rezultat. Tam AI ne bo razjasnil dela. Samo hitreje bo pokazal, da delo ni razjasnjeno.
 
 Hitro opozorilo: prvi proces ne sme biti izbran zato, ker je najbolj zanimiv direktorju.
 
@@ -180,7 +180,7 @@ Dobra strategija pokrije sedem vprašanj:
 6. Kako merimo čas, kakovost in tveganje?
 7. Kako ekipo naučimo varne in odgovorne uporabe AI?
 
-Zadnje vprašanje ni več samo dobra praksa. [Evropska komisija pojasnjuje](https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy), da se 4. člen EU AI Act o AI pismenosti uporablja od 2. februarja 2025. Ponudniki in uporabniki AI sistemov morajo poskrbeti za ustrezno raven znanja pri ljudeh, ki z njimi delajo.
+Zadnje vprašanje ni več samo dobra praksa. [Evropska komisija pojasnjuje](https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy), da se [4. člen EU AI Act o AI pismenosti](https://aisistemi.si/blog/eu-ai-act-clen-4-obveznost-usposabljanja) uporablja od 2. februarja 2025. Ponudniki in uporabniki AI sistemov morajo poskrbeti za ustrezno raven znanja pri ljudeh, ki z njimi delajo.
 
 V poslovnem jeziku to pomeni: zaposleni ne potrebujejo samo dostopa do orodja. Potrebujejo pravila igre.
 

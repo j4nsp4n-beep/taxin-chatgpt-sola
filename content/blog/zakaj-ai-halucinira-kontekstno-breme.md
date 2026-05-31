@@ -93,7 +93,7 @@ WalkMe, podjetje v lasti SAP, je v [AI in the Workplace Survey 2025](https://ir.
 
 In potem? Zmeda.
 
-Eden uporablja osebni račun. Drugi uporablja Copilot. Tretji ima svoj nabor navodil. Četrti pošilja podatke, ki jih ne bi smel. Nihče ne ve, kateri odgovor je nastal iz pravih virov.
+Eden uporablja osebni račun. [Drugi uporablja Copilot](https://aisistemi.si/blog/chatgpt-claude-copilot-katerega-izbrati). Tretji ima svoj nabor navodil. Četrti pošilja podatke, ki jih ne bi smel. Nihče ne ve, kateri odgovor je nastal iz pravih virov.
 
 Halucinacije pri umetni inteligenci zato niso samo tehnična tema. Pogosto pokažejo, kako je organizirano delo.
 
@@ -105,7 +105,7 @@ Nekaj tveganja ostane.
 
 Veliko ga odpade.
 
-Namesto da človek vsak dan znova nosi ozadje v AI, se ozadje uredi v sistemu. Pri [AI Sistemi](https://aisistemi.si/) to pomeni štiri praktične plasti: podatki, kontekst, orodja in proces. Brez njih AI ostane zunanji sogovornik. Z njimi lahko postane del delovnega toka.
+Namesto da človek vsak dan znova nosi ozadje v AI, se ozadje uredi v sistemu. Pri [AI Sistemi](https://aisistemi.si/) to pomeni [štiri praktične plasti: podatki, kontekst, orodja in proces](https://aisistemi.si/blog/kako-uvesti-ai-v-podjetje-4-plasti). Brez njih AI ostane zunanji sogovornik. Z njimi lahko postane del delovnega toka.
 
 Kontekstna plast običajno vsebuje:
 
@@ -119,7 +119,7 @@ Kontekstna plast običajno vsebuje:
 
 Pomembna je tudi aktualnost. Stara navodila so lahko slabša od nobenih, ker modelu dajejo samozavest na napačni podlagi.
 
-Tu pomaga RAG, torej iskanje po zunanjih virih pred odgovorom. [Google Cloud v razlagi RAG](https://cloud.google.com/use-cases/retrieval-augmented-generation) poudarja, da lahko dejstva v vhodnem kontekstu zmanjšajo halucinacije, še posebej pri svežih, zasebnih ali specializiranih podatkih. A sam RAG pokrije samo del konteksta AI. Iskanje najde košček. Proces mora povedati, kateri košček je veljaven in kaj z njim narediti.
+Tu pomaga [RAG, torej iskanje po zunanjih virih pred odgovorom](https://aisistemi.si/blog/kaj-je-rag-in-kdaj-ga-potrebujete). [Google Cloud v razlagi RAG](https://cloud.google.com/use-cases/retrieval-augmented-generation) poudarja, da lahko dejstva v vhodnem kontekstu zmanjšajo halucinacije, še posebej pri svežih, zasebnih ali specializiranih podatkih. A sam RAG pokrije samo del konteksta AI. Iskanje najde košček. Proces mora povedati, kateri košček je veljaven in kaj z njim narediti.
 
 Počakajte, še eno stvar: vir ni enako odločitev.
 

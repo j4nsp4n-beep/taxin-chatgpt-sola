@@ -30,7 +30,7 @@ Najprej iskanje.
 
 Šele potem odgovor.
 
-RAG je pristop, pri katerem AI pred odgovorom poišče relevantne vire: pravilnik, cenik, navodilo, pogodbo, zapisnik ali stran iz interne baze znanja. Model nato odgovori z dodatnim kontekstom, ne samo iz splošnega znanja. Za direktorja ali IT vodjo je to pomembno, ker generični AI ne pozna vaše stranke, zadnje ponudbe, izjeme v pogodbi ali internega pravila. Če teh virov ne dobi, lahko odgovori tekoče in samozavestno, vendar napačno.
+RAG je pristop, pri katerem AI pred odgovorom poišče relevantne vire: pravilnik, cenik, navodilo, pogodbo, zapisnik ali stran iz interne baze znanja. Model nato odgovori z dodatnim kontekstom, ne samo iz splošnega znanja. Za direktorja ali IT vodjo je to pomembno, ker [generični AI ne pozna vaše stranke](https://aisistemi.si/blog/chatgpt-za-slovensko-podjetje), zadnje ponudbe, izjeme v pogodbi ali internega pravila. Če teh virov ne dobi, lahko [odgovori tekoče in samozavestno, vendar napačno](https://aisistemi.si/blog/zakaj-ai-halucinira-kontekstno-breme).
 
 RAG zveni kot rešitev. V resnici je zelo uporabno orodje za zelo specifičen problem: kako AI pred odgovorom pripeljati do pravega vira.
 
@@ -142,7 +142,7 @@ Pred RAG sistemom uredite štiri stvari.
 
 **Četrtič: pregled odgovora.** Pri nizkotveganih vprašanjih lahko sistem odgovori sam. Pri ponudbah, pogodbah, kadrovskih temah in finančnih odločitvah mora človek vedeti, kaj preverja: vir, datum, številko, izjemo in posledico.
 
-Tu se poveže RAG in širši [AI sistem za podjetje](https://aisistemi.si/ai-sistem-za-podjetje). RAG je lahko ena plast. Ni pa celoten sistem. Podjetje potrebuje še podatke, kontekst, orodja in proces, drugače AI ostane pameten vmesnik nad starim neredom.
+Tu se poveže RAG in širši [AI sistem za podjetje](https://aisistemi.si/ai-sistem-za-podjetje). RAG je lahko ena plast. Ni pa celoten sistem. Podjetje potrebuje še [podatke, kontekst, orodja in proces](https://aisistemi.si/blog/kako-uvesti-ai-v-podjetje-4-plasti), drugače AI ostane pameten vmesnik nad starim neredom.
 
 Če niste prepričani, kje ste, je koristen tudi kratek diagnostični korak, kot je [preverjanje pripravljenosti na AI](https://aisistemi.si/preveri). Ni vsak proces zrel za RAG. Nekateri potrebujejo samo boljšo mapo, jasnejši SOP ali ureditev CRM polj.
 

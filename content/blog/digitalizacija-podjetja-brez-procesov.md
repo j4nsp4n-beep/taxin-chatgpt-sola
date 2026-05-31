@@ -57,7 +57,7 @@ Na papirju je to smiselno. V praksi se zatakne pri vprašanjih, ki jih orodje ne
 4. Kateri pogoji so standardni in kateri so stvar presoje?
 5. Kam se shrani končna ponudba?
 
-Brez teh odgovorov AI dela v megli. Človek mora potem popravljati, preverjati in dopolnjevati.
+Brez teh odgovorov [AI dela v megli](https://aisistemi.si/blog/zakaj-ai-halucinira-kontekstno-breme). Človek mora potem popravljati, preverjati in dopolnjevati.
 
 To je točka, kjer digitalizacija poslovanja postane dražja, kot je videti v ponudbi za orodje. Pravi strošek se pogosto pokaže kot dodatno usklajevanje.
 
@@ -67,7 +67,7 @@ AI je zelo dober pospeševalnik.
 
 Zato je nevaren tam, kjer podjetje še nima dogovorjenega načina dela. Hitro napiše e-poštno sporočilo. Hitro pripravi povzetek. Hitro sestavi predlog. Hitrost pa sama po sebi ne pove, ali je rezultat pravilen.
 
-Pri AI se procesni kaos pokaže v treh oblikah.
+Pri AI se procesni kaos pokaže v [treh oblikah](https://aisistemi.si/blog/tri-najvecje-napake-pri-uvajanju-ai).
 
 Prva je več verzij iste resnice. En sodelavec prilepi v AI zadnjo ponudbo, drugi star cenik, tretji povzetek sestanka. Vsi dobijo prepričljive odgovore. Vsak odgovor zveni uporaben. Samo eden izhaja iz pravilnega konteksta.
 
@@ -133,7 +133,7 @@ Digitalna preobrazba takrat ustvari več digitalnih sledi, ki jih je treba kasne
 
 ## Kako ločiti digitalizacijo poslovanja od digitalizacije kaosa?
 
-Uporabite preprost okvir: proces, podatki, odgovornost, orodje.
+Uporabite [preprost okvir: proces, podatki, odgovornost, orodje](https://aisistemi.si/blog/kako-uvesti-ai-v-podjetje-4-plasti).
 
 V tem vrstnem redu.
 

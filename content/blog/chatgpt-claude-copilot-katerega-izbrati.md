@@ -32,7 +32,7 @@ Razumem skušnjavo. Direktor vidi tri znana imena. IT vodja vidi licence, upravl
 
 Primerjava je potrebna.
 
-A če primerjate samo ChatGPT, Claude in Copilot, primerjate zgornjo plast. Spodaj ostane težje vprašanje: ali ima vaše podjetje dovolj urejen kontekst, podatke, procese in odobritve, da bo katerokoli AI orodje delalo več kot lepe osnutke?
+A če primerjate samo ChatGPT, Claude in Copilot, primerjate zgornjo plast. Spodaj ostane težje vprašanje: ali ima vaše podjetje [dovolj urejen kontekst, podatke, procese](https://aisistemi.si/blog/kako-uvesti-ai-v-podjetje-4-plasti) in odobritve, da bo katerokoli AI orodje delalo več kot lepe osnutke?
 
 ## Kako se ChatGPT, Claude in Copilot razlikujejo v praksi?
 
@@ -99,7 +99,7 @@ Toda nobeden sam od sebe ne ve, katera stranka ima poseben popust, kdo mora potr
 
 Tu se začne resnična razlika med AI orodjem za podjetje in AI sistemom. Orodje odgovori na vprašanje. Sistem pozna potek dela, dostop do podatkov, pravila odločanja in mejo, kjer mora človek potrditi rezultat.
 
-Na [AI Sistemi](https://aisistemi.si/) temu pravimo vmesna plast med podjetjem in modelom. Bolj konkretno: [AI sistem za podjetje](https://aisistemi.si/ai-sistem-za-podjetje) poveže kontekst, podatke, orodja in procese, da AI ne dela vsakič iz nič.
+Na [AI Sistemi](https://aisistemi.si/) temu pravimo [vmesna plast med podjetjem in modelom](https://aisistemi.si/blog/chatgpt-za-slovensko-podjetje). Bolj konkretno: [AI sistem za podjetje](https://aisistemi.si/ai-sistem-za-podjetje) poveže kontekst, podatke, orodja in procese, da AI ne dela vsakič iz nič.
 
 ## Kdaj je Claude boljša izbira kot ChatGPT?
 
@@ -168,7 +168,7 @@ Za podjetje z 20 do 100 ljudmi licenca brez pravil hitro postane megla. Tu že p
 
 Za podjetje nad 100 ljudi je izbira orodja pogosto tudi vprašanje upravljanja. SSO, dostopi, revizijska sled, skladnost, zadrževanje podatkov, pogodbe in notranja podpora niso dodatki. So pogoj. Tu se je smiselno pogovarjati z dobavitelji in hkrati zgraditi notranji model, kateri podatki smejo v AI in kateri procesi so prvi.
 
-Najslabša možnost je razpršena osebna raba. Vsak ima svoj račun. Nekateri uporabljajo brezplačne različice. Nekdo kopira pogodbe. Nekdo uporablja občutljive podatke v osebnem profilu. Nihče ne ve, kaj se je zgodilo.
+Najslabša možnost je razpršena osebna raba. Vsak ima svoj račun. Nekateri uporabljajo [brezplačne različice](https://aisistemi.si/blog/brezplacna-umetna-inteligenca-v-slovenscini). Nekdo kopira pogodbe. Nekdo uporablja občutljive podatke v osebnem profilu. Nihče ne ve, kaj se je zgodilo.
 
 Glavni krivec ni tehnologija, ampak razpršena odgovornost.
 
