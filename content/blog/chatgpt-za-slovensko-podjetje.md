@@ -162,15 +162,15 @@ ChatGPT pri tem ni glavni krivec. Pod njim manjka kontekstna plast.
 
 ## Kaj narediti zdaj?
 
-Tri konkretne akcije. Vse lahko opravite v eni uri, brez svetovalca, brez novega orodja.
+Trije konkretni koraki. Vse lahko opravite v eni uri, brez svetovalca, brez novega orodja.
 
-**Akcija 1: Seznam procesov.**
+**Korak 1: Naredite seznam procesov.**
 
 Vzemite list. Zapišite vse procese, kjer vi ali sodelavci trenutno uporabljate ChatGPT: pisanje e-pošte, povzetki sestankov, priprava ponudb, računovodski povzetki. Vse.
 
 Pri vsakem zapišite, katera od štirih plasti manjka. Kontekst, podatki, orodja ali procesi.
 
-**Akcija 2: Izmera ročnega prenosa.**
+**Korak 2: Izmerite ročni prenos.**
 
 Izberite en proces, kjer ChatGPT najpogosteje uporabljate. Zapišite, koliko časa porabite, da mu vsakič znova razložite kontekst. Štejte v minutah.
 
@@ -178,7 +178,7 @@ Pomnožite s številom uporabnikov in delovnih dni v mesecu. Število, ki ga dob
 
 Primer: če sodelavec vsak delovni dan dvakrat porabi po 15 minut za zbiranje konteksta, je to približno 11 ur na mesec. Pri treh sodelavcih je to že več kot štiri delovne dni ročnega prenosa, še preden ocenite denar.
 
-**Akcija 3: Pošteno vprašanje.**
+**Korak 3: Pošteno vprašanje.**
 
 Vprašajte se: je problem v ChatGPT-ju ali v tem, da vaše podjetje konteksta nima zbranega na enem mestu?
 
