@@ -142,6 +142,92 @@
   const heroPieces = heroSpace ? [...heroSpace.querySelectorAll('.hero-glass,.hero-core')] : [];
   const convergence = document.querySelector('.convergence');
   const processWindows = [...document.querySelectorAll('.flow-window')];
+  const SVG_NS = 'http://www.w3.org/2000/svg';
+
+  const createConnectionNetwork = (container, sourceSelector, targetSelector, className) => {
+    if (!container) return null;
+    const sources = [...container.querySelectorAll(sourceSelector)];
+    const target = container.querySelector(targetSelector);
+    if (!sources.length || !target) return null;
+    let svg = container.querySelector(`.${className}`);
+    if (!svg) {
+      svg = document.createElementNS(SVG_NS, 'svg');
+      svg.setAttribute('class', className);
+      svg.setAttribute('aria-hidden', 'true');
+      container.prepend(svg);
+    }
+    svg.replaceChildren();
+    const links = sources.map((source, index) => {
+      const base = document.createElementNS(SVG_NS, 'path');
+      const flow = document.createElementNS(SVG_NS, 'path');
+      const node = document.createElementNS(SVG_NS, 'circle');
+      base.setAttribute('class', 'network-base');
+      flow.setAttribute('class', 'network-flow');
+      node.setAttribute('class', 'network-node');
+      base.setAttribute('pathLength', '1');
+      flow.setAttribute('pathLength', '1');
+      node.setAttribute('r', '4.5');
+      flow.style.animationDelay = `${index * -190}ms`;
+      node.style.animationDelay = `${index * -280}ms`;
+      svg.append(base, flow, node);
+      return { source, base, flow, node };
+    });
+    const update = progress => {
+      const frameBox = container.getBoundingClientRect();
+      if (!frameBox.width || !frameBox.height) return;
+      svg.setAttribute('viewBox', `0 0 ${frameBox.width} ${frameBox.height}`);
+      const mobileChain = className === 'hero-network' && innerWidth <= 760;
+      const finalTargetBox = target.getBoundingClientRect();
+      links.forEach(({ source, base, flow, node }, index) => {
+        const sourceBox = source.getBoundingClientRect();
+        const linkTarget = mobileChain && index < links.length - 1 ? links[index + 1].source : target;
+        const targetBox = mobileChain ? linkTarget.getBoundingClientRect() : finalTargetBox;
+        const x1 = sourceBox.left - frameBox.left + sourceBox.width * .5;
+        const y1 = mobileChain
+          ? sourceBox.bottom - frameBox.top
+          : sourceBox.top - frameBox.top + sourceBox.height * .5;
+        const x2 = targetBox.left - frameBox.left + targetBox.width * .5;
+        const y2 = mobileChain
+          ? targetBox.top - frameBox.top
+          : targetBox.top - frameBox.top + targetBox.height * .5;
+        const dx = x2 - x1;
+        const dy = y2 - y1;
+        const d = mobileChain
+          ? `M${x1.toFixed(1)} ${y1.toFixed(1)}C${x1.toFixed(1)} ${(y1 + dy * .52).toFixed(1)} ${x2.toFixed(1)} ${(y2 - dy * .52).toFixed(1)} ${x2.toFixed(1)} ${y2.toFixed(1)}`
+          : `M${x1.toFixed(1)} ${y1.toFixed(1)}C${(x1 + dx * .38).toFixed(1)} ${(y1 + dy * .08).toFixed(1)} ${(x2 - dx * .24).toFixed(1)} ${(y2 - dy * .08).toFixed(1)} ${x2.toFixed(1)} ${y2.toFixed(1)}`;
+        base.setAttribute('d', d);
+        flow.setAttribute('d', d);
+        node.setAttribute('cx', x1.toFixed(1));
+        node.setAttribute('cy', y1.toFixed(1));
+        const stagger = links.length > 1 ? index * .08 : 0;
+        const local = clamp((progress - stagger) / Math.max(.01, 1 - stagger));
+        const eased = local * local * (3 - 2 * local);
+        base.style.strokeDashoffset = String(1 - eased);
+        flow.style.opacity = String(clamp((local - .58) / .3) * .92);
+        node.style.opacity = String(clamp((local - .32) / .3));
+      });
+      container.classList.toggle('is-connected', progress > .96);
+    };
+    update(reduced.matches ? 1 : 0);
+    return { update };
+  };
+
+  const heroConnections = createConnectionNetwork(heroSpace, '.hero-glass', '.hero-core', 'hero-network');
+  const convergenceCanvas = convergence?.querySelector('.convergence-canvas');
+  const convergenceConnections = createConnectionNetwork(convergenceCanvas, '.source-fragment', '.review-dossier', 'convergence-network');
+  let heroConnectionProgress = reduced.matches ? 1 : 0;
+  let heroConnectionStarted = 0;
+  const animateHeroConnections = now => {
+    if (!heroConnections || reduced.matches) {
+      heroConnectionProgress = 1;
+      heroConnections?.update(1);
+      return;
+    }
+    if (!heroConnectionStarted) heroConnectionStarted = now;
+    heroConnectionProgress = clamp((now - heroConnectionStarted) / 1700);
+    heroConnections.update(heroConnectionProgress);
+    if (heroConnectionProgress < 1) requestAnimationFrame(animateHeroConnections);
+  };
   let pointerX = 0;
   let pointerY = 0;
   let currentX = 0;
@@ -150,6 +236,11 @@
 
   const configureMotion = () => {
     root.classList.toggle('motion-ok', wide.matches && !reduced.matches);
+    if (reduced.matches) {
+      heroConnectionProgress = 1;
+      heroConnections?.update(1);
+      convergenceConnections?.update(1);
+    }
     queueFrame();
   };
   const renderMotion = () => {
@@ -172,14 +263,18 @@
         piece.style.setProperty('--py', `${(currentY * depth * 16 - scrollProgress * depth * 34).toFixed(2)}px`);
       });
     }
+    heroConnections?.update(heroConnectionProgress);
+    let convergenceProgress = 1;
     if (convergence && root.classList.contains('motion-ok')) {
       const rect = convergence.getBoundingClientRect();
       const progress = clamp(-rect.top / Math.max(rect.height - innerHeight, 1));
       const gather = clamp((progress - .06) / .68);
-      convergence.style.setProperty('--g', String(gather * gather * (3 - 2 * gather)));
+      convergenceProgress = gather * gather * (3 - 2 * gather);
+      convergence.style.setProperty('--g', String(convergenceProgress));
     } else if (convergence) {
       convergence.style.setProperty('--g', '1');
     }
+    convergenceConnections?.update(convergenceProgress);
     processWindows.forEach(windowElement => {
       const rail = windowElement.querySelector('[data-process-pan]');
       if (!rail || !wide.matches || reduced.matches) {
@@ -214,6 +309,7 @@
   reduced.addEventListener('change', configureMotion);
   wide.addEventListener('change', configureMotion);
   configureMotion();
+  requestAnimationFrame(animateHeroConnections);
 
   // Scrollcraft supplies the shared pointer material and progress runtime.
   if (window.ScrollCraft) window.ScrollCraft.mount(document);
