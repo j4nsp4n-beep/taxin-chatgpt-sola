@@ -44,6 +44,10 @@ const nextConfig: NextConfig = {
   async rewrites() {
     return [
       {
+        source: "/en",
+        destination: "/en/index.html",
+      },
+      {
         source: "/ai-kot-generator-prihrankov",
         destination: "/ai-kot-generator-prihrankov/index.html",
       },

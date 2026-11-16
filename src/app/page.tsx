@@ -205,7 +205,7 @@ function Navbar() {
     >
       <div className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-6">
         <Link href="/" className="flex items-center" aria-label="AI Sistemi">
-          <img src="/brand/aisistemi-wordmark.png" alt="AI Sistemi" width={1265} height={281} className="h-12 w-auto" />
+          <img src="/brand/aisistemi-wordmark.png" alt="AI Sistemi" width={1265} height={281} className="h-9 w-auto sm:h-12" />
         </Link>
         <nav className="hidden gap-8 md:flex">
           {[["Kako poteka", "#kako-poteka"], ["Razvojna pot", "#razvojna-pot"], ["Za koga", "#za-koga"], ["FAQ", "#faq"]].map(([l, href]) => (
@@ -214,12 +214,23 @@ function Navbar() {
             </Link>
           ))}
         </nav>
-        <a
-          href="https://tally.so/r/44obxA" target="_blank" rel="noopener noreferrer"
-          className="rounded-full bg-[#ff5722] px-5 py-2 text-sm font-semibold text-white hover:bg-[#ff4500] transition"
-        >
-          Rezervirajte pregled
-        </a>
+        <div className="flex items-center gap-2">
+          <Link
+            href="/en"
+            hrefLang="en"
+            aria-label="English version"
+            className="inline-flex h-10 min-w-10 items-center justify-center rounded-full border border-slate-200 bg-white/70 px-3 text-xs font-semibold text-slate-600 transition hover:border-slate-300 hover:text-slate-900"
+          >
+            EN
+          </Link>
+          <a
+            href="https://tally.so/r/44obxA" target="_blank" rel="noopener noreferrer"
+            className="rounded-full bg-[#ff5722] px-3 py-2 text-sm font-semibold text-white transition hover:bg-[#ff4500] sm:px-5"
+          >
+            <span className="hidden sm:inline">Rezervirajte pregled</span>
+            <span className="sm:hidden">Pregled</span>
+          </a>
+        </div>
       </div>
     </header>
   );

@@ -4,6 +4,7 @@ const SITE = "https://aisistemi.si";
 
 const routes: { path: string; priority: number; changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"] }[] = [
   { path: "/", priority: 1.0, changeFrequency: "weekly" },
+  { path: "/en", priority: 0.9, changeFrequency: "monthly" },
   { path: "/ai-sistem-za-direktorja", priority: 0.9, changeFrequency: "monthly" },
   { path: "/pregled-pripravljenosti", priority: 0.9, changeFrequency: "monthly" },
   { path: "/ai-kot-generator-prihrankov", priority: 0.8, changeFrequency: "monthly" },
