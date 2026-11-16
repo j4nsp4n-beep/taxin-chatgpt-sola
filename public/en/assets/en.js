@@ -21,6 +21,11 @@
   const convergenceCanvas = document.querySelector('.convergence-canvas');
   const packet = document.querySelector('.review-packet');
   const fragments = [...document.querySelectorAll('.source-fragment')];
+  const toolMap = document.querySelector('[data-tool-map]');
+  const toolChips = [...document.querySelectorAll('.tool-chip')];
+  const integrationCore = document.querySelector('[data-integration-core]');
+  const integrationResult = document.querySelector('[data-integration-result]');
+  const integrationGate = document.querySelector('[data-integration-gate]');
   const scenes = [...document.querySelectorAll('main .scene')];
   const progressLinks = [...document.querySelectorAll('.section-progress a')];
   const revealTargets = [...document.querySelectorAll('[data-reveal],[data-stagger],[data-kinetic]')];
@@ -29,6 +34,8 @@
   let pointerY = 0;
   let network;
   let paths = [];
+  let toolNetwork;
+  let toolLinks = [];
 
   if ('IntersectionObserver' in window && !reduced.matches) {
     const revealObserver = new IntersectionObserver(entries => {
@@ -77,6 +84,78 @@
       path.setAttribute('d', d);
       path.style.opacity = String(0.18 + pathProgress * 0.72);
       path.style.strokeDashoffset = String(1 - pathProgress);
+    });
+  }
+
+  function buildToolNetwork() {
+    if (!toolMap || !integrationCore || !integrationResult || !integrationGate || toolNetwork) return;
+
+    toolNetwork = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    toolNetwork.setAttribute('class', 'tool-network');
+    toolNetwork.setAttribute('aria-hidden', 'true');
+    toolNetwork.setAttribute('focusable', 'false');
+
+    const pairs = [
+      ...toolChips.map(chip => [chip, integrationCore]),
+      [integrationCore, integrationResult],
+      [integrationResult, integrationGate]
+    ];
+
+    pairs.forEach((pair, index) => {
+      const base = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      const signal = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      base.setAttribute('class', 'tool-path tool-path-base');
+      signal.setAttribute('class', 'tool-path tool-path-signal');
+      signal.style.animationDelay = `${(index % 6) * -0.18}s`;
+      toolNetwork.append(base, signal);
+      toolLinks.push({ from: pair[0], to: pair[1], base, signal });
+    });
+
+    toolMap.insertBefore(toolNetwork, toolMap.firstChild);
+    updateToolNetwork();
+  }
+
+  function edgePoint(element, toward, frameRect) {
+    const rect = element.getBoundingClientRect();
+    const towardRect = toward.getBoundingClientRect();
+    const centerX = rect.left + rect.width / 2;
+    const centerY = rect.top + rect.height / 2;
+    const towardX = towardRect.left + towardRect.width / 2;
+    const towardY = towardRect.top + towardRect.height / 2;
+    const dx = towardX - centerX;
+    const dy = towardY - centerY;
+
+    let x = centerX;
+    let y = centerY;
+    if (Math.abs(dx) >= Math.abs(dy)) x = dx >= 0 ? rect.right : rect.left;
+    else y = dy >= 0 ? rect.bottom : rect.top;
+
+    return { x: x - frameRect.left, y: y - frameRect.top };
+  }
+
+  function connectionPath(from, to, frameRect) {
+    const start = edgePoint(from, to, frameRect);
+    const end = edgePoint(to, from, frameRect);
+    const dx = end.x - start.x;
+    const dy = end.y - start.y;
+
+    if (Math.abs(dx) >= Math.abs(dy)) {
+      const bend = Math.max(34, Math.abs(dx) * 0.46) * Math.sign(dx || 1);
+      return `M ${start.x.toFixed(1)} ${start.y.toFixed(1)} C ${(start.x + bend).toFixed(1)} ${start.y.toFixed(1)}, ${(end.x - bend).toFixed(1)} ${end.y.toFixed(1)}, ${end.x.toFixed(1)} ${end.y.toFixed(1)}`;
+    }
+
+    const bend = Math.max(34, Math.abs(dy) * 0.46) * Math.sign(dy || 1);
+    return `M ${start.x.toFixed(1)} ${start.y.toFixed(1)} C ${start.x.toFixed(1)} ${(start.y + bend).toFixed(1)}, ${end.x.toFixed(1)} ${(end.y - bend).toFixed(1)}, ${end.x.toFixed(1)} ${end.y.toFixed(1)}`;
+  }
+
+  function updateToolNetwork() {
+    if (!toolNetwork || !toolMap || window.innerWidth <= 760) return;
+    const frameRect = toolMap.getBoundingClientRect();
+    toolNetwork.setAttribute('viewBox', `0 0 ${frameRect.width.toFixed(1)} ${frameRect.height.toFixed(1)}`);
+    toolLinks.forEach(link => {
+      const d = connectionPath(link.from, link.to, frameRect);
+      link.base.setAttribute('d', d);
+      link.signal.setAttribute('d', d);
     });
   }
 
@@ -161,6 +240,11 @@
       updateConvergence(progress);
     }
 
+    if (toolMap) {
+      const toolRect = toolMap.getBoundingClientRect();
+      if (toolRect.bottom > -100 && toolRect.top < window.innerHeight + 100) updateToolNetwork();
+    }
+
     activeScene();
   }
 
@@ -197,8 +281,11 @@
   }
 
   buildNetwork();
+  buildToolNetwork();
   window.addEventListener('scroll', queueRender, { passive: true });
   window.addEventListener('resize', queueRender, { passive: true });
+  window.addEventListener('load', updateToolNetwork, { once: true });
+  if ('ResizeObserver' in window && toolMap) new ResizeObserver(updateToolNetwork).observe(toolMap);
   if (typeof reduced.addEventListener === 'function') reduced.addEventListener('change', onReducedMotionChange);
   else if (typeof reduced.addListener === 'function') reduced.addListener(onReducedMotionChange);
   requestAnimationFrame(render);
