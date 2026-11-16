@@ -205,7 +205,7 @@ function Navbar() {
     >
       <div className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-6">
         <Link href="/" className="flex items-center" aria-label="AI Sistemi">
-          <img src="/brand/aisistemi-wordmark.png" alt="AI Sistemi" className="h-12 w-auto" />
+          <img src="/brand/aisistemi-wordmark.png" alt="AI Sistemi" width={1265} height={281} className="h-12 w-auto" />
         </Link>
         <nav className="hidden gap-8 md:flex">
           {[["Kako poteka", "#kako-poteka"], ["Razvojna pot", "#razvojna-pot"], ["Za koga", "#za-koga"], ["FAQ", "#faq"]].map(([l, href]) => (
@@ -322,7 +322,7 @@ export default function PregledPripravljenosti() {
               { src: "/logos/microsoftazure.svg", alt: "Microsoft Azure", h: "h-6" },
             ].map((logo) => (
               <div key={logo.alt} className="flex items-center gap-2 opacity-60 transition hover:opacity-90">
-                <img src={logo.src} alt={logo.alt} className={`${logo.h} w-auto`} />
+                <img src={logo.src} alt={logo.alt} width={24} height={24} className={`${logo.h} w-auto`} />
                 <span className="text-xs font-medium text-slate-500">{logo.alt}</span>
               </div>
             ))}
@@ -432,7 +432,7 @@ export default function PregledPripravljenosti() {
                 { src: "/logos/zapier.svg", alt: "Zapier", h: "h-6" },
               ].map((logo) => (
                 <div key={logo.alt} className="flex items-center gap-2 opacity-60 transition hover:opacity-90">
-                  <img src={logo.src} alt={logo.alt} className={`${logo.h} w-auto`} />
+                  <img src={logo.src} alt={logo.alt} width={24} height={24} className={`${logo.h} w-auto`} />
                   <span className="text-xs font-medium text-slate-500">{logo.alt}</span>
                 </div>
               ))}
@@ -462,29 +462,35 @@ export default function PregledPripravljenosti() {
           <div className="mt-14 grid gap-6 md:grid-cols-3">
             <FadeIn delay={0.08}>
               <div className="flex h-full flex-col rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
-                <span className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-slate-900 text-white"><img src="/logos/icon-direktor.svg" alt="" className="h-6 w-6 invert" /></span>
+                <span className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-slate-900 text-white"><img src="/logos/icon-direktor.svg" alt="" width={24} height={24} className="h-6 w-6 invert" /></span>
                 <h3 className="text-xl font-bold text-slate-900">AI Sistem za Direktorja</h3>
                 <p className="mt-4 flex-1 text-sm leading-relaxed text-slate-500">
                   Osebni AI sistem za vodstvo. Povezan z več mail računi, koledarji, Google Drive, Slack, Notion in projektnimi orodji. Zjutraj pripravi pregled dneva, pozna vse projekte, stranke in prioritete. Z vsako sejo se uči in nadgrajuje razumevanje podjetja.
                 </p>
                 <p className="mt-6 text-xs text-slate-400">Za direktorje, lastnike in vodje ki vodijo več projektov hkrati.</p>
+                <Link href="/ai-sistem-za-direktorja" className="mt-4 text-sm font-semibold text-[#ff5722] hover:text-[#ff4500]">
+                  Poglejte sistem za direktorja →
+                </Link>
               </div>
             </FadeIn>
 
             <FadeIn delay={0.14}>
               <div className="flex h-full flex-col rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
-                <span className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-slate-900 text-white"><img src="/logos/icon-podjetje.svg" alt="" className="h-6 w-6 invert" /></span>
+                <span className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-slate-900 text-white"><img src="/logos/icon-podjetje.svg" alt="" width={24} height={24} className="h-6 w-6 invert" /></span>
                 <h3 className="text-xl font-bold text-slate-900">AI Sistem za Podjetje</h3>
                 <p className="mt-4 flex-1 text-sm leading-relaxed text-slate-500">
                   Celotna ekipa uporablja sistem vsak na svojem delovnem mestu. Prodaja vidi stranke, ponudbe in povpraševanja. Operativa vidi projekte, roke in postopke. Vodstvo vidi celotno sliko. Sistem se poveže na vsa obstoječa orodja in omogoča avtomatizacijo delovnih tokov.
                 </p>
                 <p className="mt-6 text-xs text-slate-400">Za podjetja ki želijo centralen AI sistem za celotno ekipo.</p>
+                <Link href="/pregled-pripravljenosti" className="mt-4 text-sm font-semibold text-[#ff5722] hover:text-[#ff4500]">
+                  Poglejte sistem za podjetje →
+                </Link>
               </div>
             </FadeIn>
 
             <FadeIn delay={0.2}>
               <div className="flex h-full flex-col rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
-                <span className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-slate-900 text-white"><img src="/logos/icon-lokalni.svg" alt="" className="h-6 w-6 invert" /></span>
+                <span className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-slate-900 text-white"><img src="/logos/icon-lokalni.svg" alt="" width={24} height={24} className="h-6 w-6 invert" /></span>
                 <h3 className="text-xl font-bold text-slate-900">Lokalni AI Sistem</h3>
                 <p className="mt-4 flex-1 text-sm leading-relaxed text-slate-500">
                   Ista arhitektura, samo da vse teče na strežniku podjetja. Poganja ga lokalni AI model, podatki nikoli ne zapustijo stavbe. Zaposleni dostopajo prek brskalnika, od kjerkoli. Sistem indeksira vse interne dokumente, pogodbe, SOP-je in dokumentacijo.
@@ -998,8 +1004,16 @@ export default function PregledPripravljenosti() {
       </section>
 
       {/* ══ FOOTER ══ */}
-      <footer className="border-t border-white/8 bg-slate-900 px-6 py-8 text-center text-sm text-white/20">
-        © {new Date().getFullYear()} AI Sistemi
+      <footer className="border-t border-white/8 bg-slate-900 px-6 py-8 text-center text-sm text-white/40">
+        <nav className="mb-4 flex flex-wrap justify-center gap-x-6 gap-y-2">
+          <Link href="/ai-sistem-za-direktorja" className="transition hover:text-white/70">
+            AI sistem za direktorja
+          </Link>
+          <Link href="/ai-kot-generator-prihrankov" className="transition hover:text-white/70">
+            Primer generatorja prihrankov
+          </Link>
+        </nav>
+        <p className="text-white/20">© {new Date().getFullYear()} AI Sistemi</p>
       </footer>
     </div>
   );

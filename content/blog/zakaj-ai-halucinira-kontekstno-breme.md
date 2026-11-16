@@ -125,7 +125,7 @@ Počakajte, še eno stvar: vir ni enako odločitev.
 
 AI lahko najde dokument, vendar še vedno ne ve, ali je dokument zadnja verzija, ali velja za to stranko in ali ga sme uporabiti v odgovoru. Zato podjetje potrebuje več kot knjižnico datotek. Potrebuje način, da AI razume status, pravila in odgovornost.
 
-Zato ima [AI sistem za podjetje](https://aisistemi.si/ai-sistem-za-podjetje) smisel šele takrat, ko ne rešuje samo pisanja, ampak tudi pot konteksta do odgovora.
+Zato ima [AI sistem za podjetje](https://aisistemi.si/pregled-pripravljenosti) smisel šele takrat, ko ne rešuje samo pisanja, ampak tudi pot konteksta do odgovora.
 
 ## Kako veste, da model dela na slepo?
 
@@ -245,7 +245,7 @@ A RAG sam po sebi še ne reši celotnega konteksta AI. Iskanje lahko najde dokum
 
 AI ne dela na slepo, ko ima pred odgovorom dostop do virov, ki dejansko odločajo o nalogi. Pri poslovnih procesih so to lahko zadnji veljavni dokumenti, potrjeni ceniki, CRM status, pomembni dogovori iz e-pošte, zapisniki sestankov, pravila odločanja in interni postopki. Pomembno je tudi, da so viri označeni po zanesljivosti, datumu in veljavnosti, saj dokument z naslovom "končna verzija" ni nujno zadnji uporaben vir.
 
-Pri [AI sistemu za podjetje](https://aisistemi.si/ai-sistem-za-podjetje) je zato bistveno vprašanje, kako podatki, kontekst, orodja in proces skupaj pripeljejo pravo podlago do odgovora. Če mora človek vsakokrat ročno iskati dokumente, jih krajšati, lepiti v pogovor in nato preverjati še v treh drugih orodjih, kontekstno breme ostane pri človeku. Boljši cilj je, da sistem že pred odgovorom ve, kateri viri so relevantni in katere meje mora AI spoštovati.
+Pri [AI sistemu za podjetje](https://aisistemi.si/pregled-pripravljenosti) je zato bistveno vprašanje, kako podatki, kontekst, orodja in proces skupaj pripeljejo pravo podlago do odgovora. Če mora človek vsakokrat ročno iskati dokumente, jih krajšati, lepiti v pogovor in nato preverjati še v treh drugih orodjih, kontekstno breme ostane pri človeku. Boljši cilj je, da sistem že pred odgovorom ve, kateri viri so relevantni in katere meje mora AI spoštovati.
 
 </details>
 

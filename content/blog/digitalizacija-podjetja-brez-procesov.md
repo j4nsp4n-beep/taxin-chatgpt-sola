@@ -153,7 +153,7 @@ Vodje pa morajo odgovoriti na drugo vprašanje: ali tehnologija že spreminja na
 
 BCG v poročilu [AI at Work 2025](https://www.bcg.com/publications/2025/ai-at-work-momentum-builds-but-gaps-remain) zapiše podobno poanto: samo dodajanje AI orodij obstoječim načinom dela ni dovolj, vrednost pride, ko podjetja preoblikujejo poteke dela od začetka do konca. V drugem poročilu o agentih BCG izpostavi še poslovni kontekst, podatke, odločitvena pravila in omejitve kot osnovo za uporabne AI agente.
 
-To je tudi razlog, da [AI Sistemi](https://aisistemi.si/) začnejo pri delu, ne pri modelu. Šele nato ima smisel graditi [AI sistem za podjetje](https://aisistemi.si/ai-sistem-za-podjetje), ki pozna kontekst, podatke in meje procesa.
+To je tudi razlog, da [AI Sistemi](https://aisistemi.si/) začnejo pri delu, ne pri modelu. Šele nato ima smisel graditi [AI sistem za podjetje](https://aisistemi.si/pregled-pripravljenosti), ki pozna kontekst, podatke in meje procesa.
 
 > **Prepoznate dva ali več znakov?** [Rezervirajte 30-minutni pregled pripravljenosti.](https://aisistemi.si/pregled-pripravljenosti) V 30 minutah preverimo, ali je vaš prvi AI proces res pripravljen ali samo dobro zveni.
 

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Navbar } from "@/components/navbar";
 
 export const metadata: Metadata = {
-  title: "AI sistem za direktorja, ki pozna projekte, stranke in sestanke | AI Sistemi",
+  title: "AI sistem za direktorja, ki pozna projekte, stranke in sestanke",
   description:
     "Zasebna operativna plast za lastnika in direktorja. Poveže mail, koledar, Drive, CRM, projekte in zapiske v dnevni pregled, pripravo na sestanke in nadaljnje korake.",
   alternates: { canonical: "/ai-sistem-za-direktorja" },
@@ -13,6 +13,14 @@ export const metadata: Metadata = {
       "Zasebna operativna plast za vodstvo. Dnevni pregled, priprava sestankov in odprte zanke iz vseh vaših orodij.",
     url: "/ai-sistem-za-direktorja",
     type: "website",
+    images: [
+      {
+        url: "/brand/aisistemi-wordmark.png",
+        width: 1265,
+        height: 281,
+        alt: "AI Sistemi",
+      },
+    ],
   },
 };
 

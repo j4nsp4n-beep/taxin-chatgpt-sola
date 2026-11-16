@@ -10,6 +10,14 @@ export const metadata: Metadata = {
     description:
       "Prinesite en konkreten proces. Skupaj pogledamo, ali ima avtomatizacija danes smisel.",
     url: "/pregled-procesa",
+    images: [
+      {
+        url: "/brand/aisistemi-wordmark.png",
+        width: 1265,
+        height: 281,
+        alt: "AI Sistemi",
+      },
+    ],
   },
 };
 

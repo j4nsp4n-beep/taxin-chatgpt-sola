@@ -205,7 +205,7 @@ function Navbar() {
     >
       <div className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-6">
         <Link href="/" className="flex items-center" aria-label="AI Sistemi">
-          <img src="/brand/aisistemi-wordmark.png" alt="AI Sistemi" className="h-12 w-auto" />
+          <img src="/brand/aisistemi-wordmark.png" alt="AI Sistemi" width={1265} height={281} className="h-12 w-auto" />
         </Link>
         <nav className="hidden gap-8 md:flex">
           {[["Kako poteka", "#kako-poteka"], ["Razvojna pot", "#razvojna-pot"], ["Za koga", "#za-koga"], ["FAQ", "#faq"]].map(([l, href]) => (

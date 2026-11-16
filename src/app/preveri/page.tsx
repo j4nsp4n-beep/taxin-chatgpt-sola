@@ -31,7 +31,7 @@ function Navbar() {
     <header className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${scrolled ? "border-b border-slate-200/80 bg-white/90 backdrop-blur-xl shadow-sm" : ""}`}>
       <div className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-6">
         <Link href="/" className="flex items-center" aria-label="AI Sistemi">
-          <img src="/brand/aisistemi-wordmark.png" alt="AI Sistemi" className="h-12 w-auto" />
+          <img src="/brand/aisistemi-wordmark.png" alt="AI Sistemi" width={1265} height={281} className="h-12 w-auto" />
         </Link>
         <Link href="/pregled-pripravljenosti" className="text-sm text-slate-500 hover:text-slate-900 transition">
           Pregled pripravljenosti

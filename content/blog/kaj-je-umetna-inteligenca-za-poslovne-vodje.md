@@ -114,7 +114,7 @@ V praksi se zatakne pri zemljevidu.
 
 Podjetje ima informacije razpršene po e-pošti, Drive-u, CRM-ju, ERP-ju, mapah in glavah posameznikov. AI brez zemljevida po teh virih ne more vedeti, kam pogledati. Zato boljši model pogosto ne reši težave. Reši jo [urejen kontekst](https://aisistemi.si/blog/zakaj-ai-halucinira-kontekstno-breme).
 
-To je tudi razlog, zakaj pri [AI Sistemi](https://aisistemi.si/) govorimo o plasti med podjetjem in modelom. [AI sistem za podjetje](https://aisistemi.si/ai-sistem-za-podjetje) mora razumeti znanje, podatke, orodja in procese, drugače ostane samo še eno mesto, kamor človek ročno prenaša informacije.
+To je tudi razlog, zakaj pri [AI Sistemi](https://aisistemi.si/) govorimo o plasti med podjetjem in modelom. [AI sistem za podjetje](https://aisistemi.si/pregled-pripravljenosti) mora razumeti znanje, podatke, orodja in procese, drugače ostane samo še eno mesto, kamor človek ročno prenaša informacije.
 
 > **Imate primere, nimate pa jasnega zaporedja?** [Rezervirajte 30-minutni pregled pripravljenosti.](https://aisistemi.si/pregled-pripravljenosti) Skupaj izberemo prvi proces, kjer ima AI dovolj konteksta za uporaben rezultat.
 
@@ -212,7 +212,7 @@ Prvi primer uporabe AI naj bo proces, ki se ponavlja, ima jasen začetek in kone
 <details>
 <summary>Kdaj podjetje potrebuje AI sistem namesto posameznega orodja?</summary>
 
-Podjetje potrebuje AI sistem takrat, ko posamezna uporaba orodja ne zadošča več za ponovljivo in varno delo. To se pogosto pokaže pri razpršenih informacijah: del podatkov je v e-pošti, del v CRM-ju, del v dokumentih, nekaj pa v glavah sodelavcev. Posamezno orodje lahko pomaga človeku pri enem pogovoru, vendar težko zagotovi, da vsi uporabljajo iste vire, pravila in meje odgovornosti. [AI sistem za podjetje](https://aisistemi.si/ai-sistem-za-podjetje) mora povezati znanje, podatke, orodja in proces, da izhodi niso odvisni samo od spretnosti posameznika. Poslovni vodje naj o sistemu razmišljajo, ko želijo doslednost, sledljivost in ponovljivost za ekipo in stranke. Takrat vprašanje ni več samo, katero AI orodje je najboljše, ampak kako bo umetna inteligenca vpeta v dejanski potek dela.
+Podjetje potrebuje AI sistem takrat, ko posamezna uporaba orodja ne zadošča več za ponovljivo in varno delo. To se pogosto pokaže pri razpršenih informacijah: del podatkov je v e-pošti, del v CRM-ju, del v dokumentih, nekaj pa v glavah sodelavcev. Posamezno orodje lahko pomaga človeku pri enem pogovoru, vendar težko zagotovi, da vsi uporabljajo iste vire, pravila in meje odgovornosti. [AI sistem za podjetje](https://aisistemi.si/pregled-pripravljenosti) mora povezati znanje, podatke, orodja in proces, da izhodi niso odvisni samo od spretnosti posameznika. Poslovni vodje naj o sistemu razmišljajo, ko želijo doslednost, sledljivost in ponovljivost za ekipo in stranke. Takrat vprašanje ni več samo, katero AI orodje je najboljše, ampak kako bo umetna inteligenca vpeta v dejanski potek dela.
 
 </details>
 

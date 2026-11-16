@@ -70,7 +70,7 @@ Ko tega ni, se AI spremeni v lepo oblikovan generator osnutkov.
 
 To je uporabno za posameznika. Za podjetje pa hitro postane novo ročno delo. Sodelavec mora kopirati podatke iz CRM-ja. Vodja mora preverjati popuste. Direktor mora presojati, ali se je v odgovor prikradel star dogovor. Vse skupaj je hitrejše, vendar ne nujno zanesljivejše.
 
-Zato pri [AI sistemu za podjetje](https://aisistemi.si/ai-sistem-za-podjetje) ključno vprašanje preseže izbiro modela, ki piše najlepše odgovore. Pomembnejše je, ali ima AI dostop do pravega poslovnega konteksta in ali je vpet v proces, kjer človek še vedno nadzira kritične odločitve.
+Zato pri [AI sistemu za podjetje](https://aisistemi.si/pregled-pripravljenosti) ključno vprašanje preseže izbiro modela, ki piše najlepše odgovore. Pomembnejše je, ali ima AI dostop do pravega poslovnega konteksta in ali je vpet v proces, kjer človek še vedno nadzira kritične odločitve.
 
 Zato prvo odločitev usmerite v poslovni rezultat, ki ga mora sistem ponovljivo ustvariti.
 

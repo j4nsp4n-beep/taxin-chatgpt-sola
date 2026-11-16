@@ -99,7 +99,7 @@ Toda nobeden sam od sebe ne ve, katera stranka ima poseben popust, kdo mora potr
 
 Tu se začne resnična razlika med AI orodjem za podjetje in AI sistemom. Orodje odgovori na vprašanje. Sistem pozna potek dela, dostop do podatkov, pravila odločanja in mejo, kjer mora človek potrditi rezultat.
 
-Na [AI Sistemi](https://aisistemi.si/) temu pravimo [vmesna plast med podjetjem in modelom](https://aisistemi.si/blog/chatgpt-za-slovensko-podjetje). Bolj konkretno: [AI sistem za podjetje](https://aisistemi.si/ai-sistem-za-podjetje) poveže kontekst, podatke, orodja in procese, da AI ne dela vsakič iz nič.
+Na [AI Sistemi](https://aisistemi.si/) temu pravimo [vmesna plast med podjetjem in modelom](https://aisistemi.si/blog/chatgpt-za-slovensko-podjetje). Bolj konkretno: [AI sistem za podjetje](https://aisistemi.si/pregled-pripravljenosti) poveže kontekst, podatke, orodja in procese, da AI ne dela vsakič iz nič.
 
 ## Kdaj je Claude boljša izbira kot ChatGPT?
 

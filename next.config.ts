@@ -7,7 +7,40 @@ const noIndexHeaders = [
   },
 ];
 
+const securityHeaders = [
+  {
+    key: "Content-Security-Policy",
+    value: "frame-ancestors 'self'",
+  },
+  {
+    key: "X-Frame-Options",
+    value: "SAMEORIGIN",
+  },
+  {
+    key: "X-Content-Type-Options",
+    value: "nosniff",
+  },
+  {
+    key: "Referrer-Policy",
+    value: "strict-origin-when-cross-origin",
+  },
+];
+
 const nextConfig: NextConfig = {
+  async redirects() {
+    return [
+      {
+        source: "/7-dnevni-ai-audit",
+        destination: "/pregled-pripravljenosti",
+        permanent: true,
+      },
+      {
+        source: "/ai-sistem-za-podjetje",
+        destination: "/pregled-pripravljenosti",
+        permanent: true,
+      },
+    ];
+  },
   async rewrites() {
     return [
       {
@@ -22,6 +55,10 @@ const nextConfig: NextConfig = {
   },
   async headers() {
     return [
+      {
+        source: "/:path*",
+        headers: securityHeaders,
+      },
       {
         source: "/mg-consult/ai-kot-generator-prihrankov",
         headers: noIndexHeaders,

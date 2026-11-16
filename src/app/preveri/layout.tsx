@@ -10,6 +10,14 @@ export const metadata: Metadata = {
     description:
       "Brezplačen kviz v štirih kategorijah: podatki, kontekst, orodja, procesi. Rezultat in priporočilo, kaj urediti najprej.",
     url: "/preveri",
+    images: [
+      {
+        url: "/brand/aisistemi-wordmark.png",
+        width: 1265,
+        height: 281,
+        alt: "AI Sistemi",
+      },
+    ],
   },
 };
 

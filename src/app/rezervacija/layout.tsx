@@ -10,6 +10,14 @@ export const metadata: Metadata = {
     description:
       "30 minut, brezplačen klic. Prinesite en konkreten proces, dobite jasno oceno naslednjega koraka.",
     url: "/rezervacija",
+    images: [
+      {
+        url: "/brand/aisistemi-wordmark.png",
+        width: 1265,
+        height: 281,
+        alt: "AI Sistemi",
+      },
+    ],
   },
 };
 

@@ -97,7 +97,7 @@ V tem vrstnem redu ima orodje drugačno vlogo: izberete ga šele, ko veste, kate
 
 Včasih je pravo orodje ChatGPT Team. Včasih Copilot. Včasih lokalni AI sistem. Včasih povezava med CRM-jem, dokumenti in agentom, ki pripravi osnutek, človek pa ga potrdi.
 
-Na [AI Sistemi](https://aisistemi.si/) temu pravimo plast med podjetjem in AI. Bolj konkretno: [AI sistem za podjetje](https://aisistemi.si/ai-sistem-za-podjetje) mora povezati delo, znanje, podatke in orodja, ne samo dodati novo okno za pogovor.
+Na [AI Sistemi](https://aisistemi.si/) temu pravimo plast med podjetjem in AI. Bolj konkretno: [AI sistem za podjetje](https://aisistemi.si/pregled-pripravljenosti) mora povezati delo, znanje, podatke in orodja, ne samo dodati novo okno za pogovor.
 
 > **Ne veste, katera plast pri vas manjka prva?** [Rezervirajte 30-minutni pregled pripravljenosti.](https://aisistemi.si/pregled-pripravljenosti) V pregledu pogledamo en konkreten proces in pokažemo, kje se uvedba AI trenutno zatika.
 

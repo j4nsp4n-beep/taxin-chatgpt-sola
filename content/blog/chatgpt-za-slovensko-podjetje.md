@@ -142,7 +142,7 @@ Brez teh štirih plasti je vsak model AI, ne glede na to, kako zmogljiv je, za v
 
 Po podatkih [Eurostata za 2025](https://ec.europa.eu/eurostat/databrowser/view/isoc_eb_ai/default/table?lang=en) je AI uporabljalo 20,21 % slovenskih MSP z 10 do 249 zaposlenimi, kar je malo nad povprečjem EU. Ko pa pogledamo AI tehnologije za avtomatizacijo potekov dela ali pomoč pri odločanju, je delež precej nižji: 2,62 % pri slovenskih MSP in 4,78 % v EU.
 
-Zanimanje torej obstaja. Težje je AI prevesti v delovni proces. To plast gradimo v [AI Sistemi](https://aisistemi.si/) z [AI sistemom za podjetje](https://aisistemi.si/ai-sistem-za-podjetje).
+Zanimanje torej obstaja. Težje je AI prevesti v delovni proces. To plast gradimo v [AI Sistemi](https://aisistemi.si/) z [AI sistemom za podjetje](https://aisistemi.si/pregled-pripravljenosti).
 
 ## Kako prepoznati, da je vaš ChatGPT samo še en zavihek?
 

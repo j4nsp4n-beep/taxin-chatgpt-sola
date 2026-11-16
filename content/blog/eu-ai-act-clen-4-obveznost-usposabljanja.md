@@ -114,7 +114,7 @@ To so sodelavci, ki pripravljajo navodila za druge, gradijo predloge, povezujejo
 
 Tu je poudarek drugje. Vodje morajo vedeti, kje AI spreminja proces in odgovornost. HR mora urediti usposabljanja in vloge. IT mora razumeti varnost, dostop in dovoljena orodja. Compliance mora videti dokazila, politike in tveganja.
 
-Pri tem pomaga sistemski pristop. Če AI ostane raztresen po osebnih računih, ni jasno, kdo kaj uporablja. Če ga vpeljete skozi proces, se znanje lažje poveže z odgovornostjo. Zato ima [AI sistem za podjetje](https://aisistemi.si/ai-sistem-za-podjetje) največ smisla tam, kjer poveže orodja, podatke, pravila in človeški pregled.
+Pri tem pomaga sistemski pristop. Če AI ostane raztresen po osebnih računih, ni jasno, kdo kaj uporablja. Če ga vpeljete skozi proces, se znanje lažje poveže z odgovornostjo. Zato ima [AI sistem za podjetje](https://aisistemi.si/pregled-pripravljenosti) največ smisla tam, kjer poveže orodja, podatke, pravila in človeški pregled.
 
 > **Imate AI v ekipah, vendar nimate pregleda nad vlogami in pravili?** [Rezervirajte 30-minutni pregled pripravljenosti.](https://aisistemi.si/pregled-pripravljenosti) V kratkem pregledu razdelimo uporabo AI po vlogah in določimo prvo raven usposabljanja.
 

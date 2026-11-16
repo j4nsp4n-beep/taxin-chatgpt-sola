@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/brand/aisistemi-wordmark.png",
-        width: 1200,
-        height: 630,
+        width: 1265,
+        height: 281,
         alt: "AI Sistemi",
       },
     ],
@@ -153,7 +153,7 @@ const organizationJsonLd = {
           name: "AI sistem za podjetje",
           description:
             "Postavitev kontekstne plasti, ki poveže procese, podatke in orodja v eno operativno plast za celotno podjetje.",
-          url: `${SITE_URL}/ai-sistem-za-podjetje`,
+          url: `${SITE_URL}/pregled-pripravljenosti`,
         },
       },
       {

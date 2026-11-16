@@ -156,7 +156,7 @@ Hitro opozorilo: prihranka ne dokazujete z občutkom. Dokazujete ga s procesom.
 
 Ko se isti kontekst ponavlja.
 
-Če sodelavci vsak dan kopirajo enake razlage v brezplačni ChatGPT, je ozko grlo neurejen kontekst. Takrat je smiselno razmišljati o [AI sistemu za podjetje](https://aisistemi.si/ai-sistem-za-podjetje), ki podatke, pravila in delovni tok poveže v bolj zanesljivo celoto.
+Če sodelavci vsak dan kopirajo enake razlage v brezplačni ChatGPT, je ozko grlo neurejen kontekst. Takrat je smiselno razmišljati o [AI sistemu za podjetje](https://aisistemi.si/pregled-pripravljenosti), ki podatke, pravila in delovni tok poveže v bolj zanesljivo celoto.
 
 Drugi znak je neizmerjen prihranek. Vsi imajo občutek, da AI pomaga, nihče pa ne zna povedati, kateri proces je krajši in za koliko.
 
@@ -223,7 +223,7 @@ Tretji del stroška so popravki. En sodelavec popravi vsebino, drugi ton, tretji
 <details>
 <summary>Kako naj podjetje varno uporablja umetno inteligenco v slovenščini?</summary>
 
-Varna uporaba se začne z jasnimi mejami. Podjetje mora določiti, kateri podatki smejo v AI orodje, kateri ne, kdo lahko uporablja osebne račune in kdaj je potreben poslovni paket ali bolj nadzorovan [AI sistem za podjetje](https://aisistemi.si/ai-sistem-za-podjetje). Umetna inteligenca v slovenščini lahko napiše dober odgovor, vendar to še ne pomeni, da sme videti vsebino ponudbe, pritožbe, pogodbe ali internega zapisa.
+Varna uporaba se začne z jasnimi mejami. Podjetje mora določiti, kateri podatki smejo v AI orodje, kateri ne, kdo lahko uporablja osebne račune in kdaj je potreben poslovni paket ali bolj nadzorovan [AI sistem za podjetje](https://aisistemi.si/pregled-pripravljenosti). Umetna inteligenca v slovenščini lahko napiše dober odgovor, vendar to še ne pomeni, da sme videti vsebino ponudbe, pritožbe, pogodbe ali internega zapisa.
 
 Praktično pravilo je, da pri občutljivih nalogah najprej odstranite nepotrebne osebne podatke in poslovne podrobnosti. Nato določite, kdo preveri rezultat in kam se shrani končna različica. Pomembna je tudi AI pismenost. Članek omenja [4. člen EU AI Act](https://digital-strategy.ec.europa.eu/en/faqs/ai-literacy-questions-answers), ki od ponudnikov in uporabnikov AI sistemov zahteva ukrepe za ustrezno raven razumevanja priložnosti, tveganj in meja uporabe. V vsakdanjem delu se to pozna tako, da zaposleni vedo, kdaj je AI pomoč in kdaj tveganje.
 

@@ -205,7 +205,7 @@ function Navbar() {
     >
       <div className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-6">
         <Link href="/" className="flex items-center" aria-label="AI Sistemi">
-          <img src="/brand/aisistemi-wordmark.png" alt="AI Sistemi" className="h-12 w-auto" />
+          <img src="/brand/aisistemi-wordmark.png" alt="AI Sistemi" width={1265} height={281} className="h-12 w-auto" />
         </Link>
         <nav className="hidden gap-8 md:flex">
           {[["Kako poteka", "#kako-poteka"], ["Razvojna pot", "#razvojna-pot"], ["Za koga", "#za-koga"], ["FAQ", "#faq"]].map(([l, href]) => (
@@ -322,7 +322,7 @@ export default function PregledPripravljenosti() {
               { src: "/logos/microsoftazure.svg", alt: "Microsoft Azure", h: "h-5" },
             ].map((logo) => (
               <div key={logo.alt} className="flex items-center gap-2 opacity-40 transition hover:opacity-70">
-                <img src={logo.src} alt={logo.alt} className={`${logo.h} w-auto`} />
+                <img src={logo.src} alt={logo.alt} width={24} height={24} className={`${logo.h} w-auto`} />
                 <span className="text-xs font-medium text-slate-400">{logo.alt}</span>
               </div>
             ))}

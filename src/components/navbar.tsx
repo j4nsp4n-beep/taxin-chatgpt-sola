@@ -34,6 +34,8 @@ export function Navbar() {
           <img
             src="/brand/aisistemi-wordmark.png"
             alt="AI Sistemi"
+            width={1265}
+            height={281}
             className="h-12 w-auto"
           />
         </Link>
