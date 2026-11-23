@@ -55,6 +55,10 @@ const nextConfig: NextConfig = {
         source: "/mg-consult/ai-kot-generator-prihrankov",
         destination: "/mg-consult/ai-kot-generator-prihrankov/index.html",
       },
+      {
+        source: "/mg-consult/rem-trebnje",
+        destination: "/mg-consult/rem-trebnje/index.html",
+      },
     ];
   },
   async headers() {
@@ -69,6 +73,14 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/mg-consult/ai-kot-generator-prihrankov/:path*",
+        headers: noIndexHeaders,
+      },
+      {
+        source: "/mg-consult/rem-trebnje",
+        headers: noIndexHeaders,
+      },
+      {
+        source: "/mg-consult/rem-trebnje/:path*",
         headers: noIndexHeaders,
       },
     ];
